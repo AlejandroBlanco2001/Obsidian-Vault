@@ -114,6 +114,8 @@ In key lookup-based systems, complex join operations or multiple-key retrieval o
 - They differ in all sense from the other NoSQL and SQL databases (data models, data traversal and querying patterns, physical layout of data on disk, distribution to multiple machines, and the transactional semantics of queries).
 - Neo4J and HyperGraphDB are great examples
 
+## Data Models 
+
 ### Complex queries
 
 - MongoDB allows you to index your data based on any number of properties and has a relatively high-level language for specifying which data you want to retrieve.
@@ -124,4 +126,155 @@ In key lookup-based systems, complex join operations or multiple-key retrieval o
 
 ### Transactions
 
-- In the NoSQL world you prefer performance over *transactional semantics*.
+- In the NoSQL world you prefer performance over *transactional semantics*, 
+- The SQL database will offer ACID guarantees between transactions.
+	- This makes us as developers sane about how the data is stored and healthy.
+	- This safety cost us performance 
+- NoSQL is fast and leave all this to developer in some cases 
+- Nowadays, some databases offer some safe guards to this, for example Redis, provides the `MULTI` command to allow a series of queries to be made.
+
+### Schema-free storage
+
+-  The NoSQL databases are schema-free, this is wonderful tool for not structure data, but after this can cause also more issues that need it.
+	- What if the record doesn't have certain property? Error? Handle the error?
+	- What if the schema is updated partially?
+	- The developer MUST program in the most defensive way possible 
+
+# Data durability
+
+- Ideally, all data modifications on a storage system would immediately be safely persisted and replicated to multiple locations to avoid data loss.
+
+- However, ensuring data safety is in tension with performance, and different NoSQL systems make different _data durability_ guarantees in order to improve performance. 
+
+- Failure scenarios are varied and numerous, and not all NoSQL systems protect you against these issues.
+
+### Single-server Durability
+
+The simplest form of durability is a _single-server durability_, which ensures that any data modification will survive a server restart or power loss.
+
+-Ideally, you want a system to minimize the number of writes between `fsync` calls, maximizing the number of those writes that are sequential, all the while never telling the user their data has been successfully written to disk until that write has been `fsync`ed
+
+#### Control fsync Frequency
+
+- Memcached s an example of a system which offers no on-disk durability in exchange for extremely fast in-memory operations. When a server restarts, the data on that server is gone: this makes for a good cache and a poor durable data store.
+
+- Redis offers developers several options for when to call `fsync`. Developers can force an `fsync` call after every update, which is the slow and safe choice
+
+#### Increase Sequential Writes by Logging
+
+- Several data structures, such as B+Trees, help NoSQL systems quickly retrieve data from disk. Updates to those structures result in updates in random locations in the data structures' files, resulting in several random writes per update if you `fsync` after each update.
+
+- To reduce random writes, systems such as Cassandra, HBase, Redis, and Riak append update operations to a sequentially-written file called a _log_.
+
+- By treating the log as the ground-truth state of the database after a crash, these storage engines are able to turn random updates into sequential ones
+
+- While NoSQL systems such as MongoDB perform writes in-place in their data structures
+
+#### Increase Throughput by Grouping Writes
+
+- Cassandra groups multiple concurrent updates within a short window into a single `fsync` call. This design, called _group commit_, results in higher latency per update, as users have to wait on several concurrent updates to have their own update be acknowledged
+
+### Multi-server Durability
+
+Because hard drives and machines often irreparably fail, copying important data across machines is necessary. Many NoSQL systems offer multi-server durability for data.
+
+- Redis takes a traditional master-slave approach to replicating data. 
+	- All operations executed against a master are communicated in a log-like fashion to slave machines, which replicate the operations on their own hardware. If a master fails, a slave can step in and serve the data from the state of the operation log that it received from the master
+	
+	- CouchDB facilitates a similar form of directional replication, where servers can be configured to replicate changes to documents on other stores
+
+- MongoDB provides the notion of replica sets, where some number of servers are responsible for storing each document. MongoDB gives developers the option of ensuring that all replicas have received updates, or to proceed without ensuring that replicas have the most recent data.
+
+# Scaling for Performance
+
+- You load the data correctly, the data gets in memory, is a big piece of data, therefore, you PC start failing, solutions?
+	- Increase the server power (Memory and Space)
+	- But what happens if you scale and scale, and it's to expensive?
+	- You will need more PCs, and distribute the load and the data
+
+That approach is called 'scale out', and is measure by the 'horizontal scalability']
+
+>[!NOTE]
+>The ideal horizontal scalability goal is _linear scalability_, in which doubling the number of machines in your storage system doubles the query capacity of the system.
+
+To be able to do this, you must do `Sharding`
+
+>[!NOTE]
+>Is the act of splitting your read and write workload across multiple machines to scale out your storage system. Also means that no one machine has to handle the write workload on the entire dataset, but no one machine can answer queries about the entire dataset.
+
+>[!IMPORANT]
+>Sharding is hard, sharding is complex, don't do sharding unless that is the last resource
+
+## How to avoid sharding
+
+### Read replicas
+
+Many storage systems see more read requests than write requests. A simple solution in these cases is to make copies of the data on multiple machines. All write requests still go to a master node. Read requests go to machines which replicate the data, and are often slightly stale with respect to the data on the write master.
+
+### Caching
+
+Caching the most popular content in your system often works surprisingly well. Memcached dedicates blocks of memory on multiple servers to cache data from your data store. Memcached clients take advantage of several horizontal scalability tricks to distribute load across Memcached installations on different servers. To add memory to the cache pool, just add another Memcached host.
+
+## Sharding
+
+### Coordinators
+
+The CouchDB project focuses on the single-server experience. Two projects, Lounge and BigCouch, facilitate sharding CouchDB workloads through an external proxy, which acts as a front end to standalone CouchDB instances. In this design, the standalone installations are not aware of each other. The coordinator distributes requests to individual CouchDB instances based on the key of the document being requested
+
+### Consistent Hash Rings
+
+- _distributed hash tables_ (_DHTs_) is a way of consistent hashing
+-
+![[Pasted image 20240802001246.png]]
+
+To do this, we map all keys to a server by seeing if it falls in the range between that server and the next one in the ring. For example, `A` is responsible for keys whose hash value falls in the range [7,233], and `E` is responsible for keys in the range [875, 6] (this range wraps around on itself at 1000). So if `H('employee30') mod L = 899`, it will be stored by server `E`, and if `H('employee31') mod L = 234`, it will be stored on server `B`.
+
+### Replicating Data
+
+- Achieved multi-server durability through key-value replication across servers in a ring.
+- Managed workload failover using neighbor servers or temporary replication.
+- Implemented replication factor to ensure data availability during server failures.
+
+### Achieving Better Distribution
+
+- Addressed uneven load distribution in small server setups.
+- Implemented virtual nodes to balance key distribution across physical machines.
+- Applied load-balancing processes to adjust server positions based on historical load.
+
+### Range Partitioning
+
+- Used range partitioning to manage metadata and route key lookups to appropriate servers.
+- Enabled fine-grained load management by adjusting key ranges on servers.
+- Integrated additional architectural components for monitoring and routing shards.
+
+### BigTable-Based Range Partitioning
+
+- Developed a hierarchical sharding technique storing key ranges within tablets.
+- Adjusted tablet size and server assignments dynamically based on load.
+- Utilized a three-layer hierarchy for efficient key lookup and reduced metadata load.
+
+## Handling Failures
+
+- Designed systems to manage master and tablet server failures with minimal impact.
+- Employed distributed locking systems like Chubby and ZooKeeper for server membership and liveness management.
+- Ensured continuous operation through automated tablet re-assignment.
+
+### Range Partitioning-Based NoSQL Projects
+
+- Integrated BigTable's hierarchical range-partitioning approach in HBase, MongoDB, and Cassandra.
+- Managed data replication and consistency using distributed file systems and replica sets.
+- Implemented order-preserving partitioners for efficient range scans.
+
+### Consistency
+
+- Balanced strong consistency and eventual consistency based on use-case requirements.
+- Applied the CAP theorem to manage consistency, availability, and partition tolerance in distributed systems.
+- Designed systems for achieving strong consistency through write and read quorum requirements.
+
+### Eventual Consistency
+
+- Used vector clocks for data versioning and conflict detection.
+- Implemented conflict resolution strategies, including application-level merging and timestamp-based resolution.
+- Employed read repair and hinted handoff techniques to handle temporary unavailability and improve synchronization.
+- Utilized anti-entropy processes like Merkle Trees for efficient replica synchronization.
+- Adopted gossip protocols to monitor and manage node health in distributed systems.
