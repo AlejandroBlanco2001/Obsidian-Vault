@@ -1,5 +1,8 @@
-In this topic, the discussion is around the whole NoSQL ecosystem, taking intou account the types and use cases.
+Keywords: #databases #nosql 
+Topic: [[Databases]]
 
+
+In this topic, the discussion is around the whole NoSQL ecosystem, taking into account the types and use cases.
 # Context
 
 The NoSQL from a query interface that is no SQL if we read it just once and without much context. But, if you explore the whole environment you can find that is more ***Not Only SQL***, this propose a new way of thinking, you can **replace** or **mix**  your current SQL database. 
@@ -23,7 +26,7 @@ This query tells what you need, but you don't have to worry about:
 - Which algorithm use to process the data
 
 >[!INFO]
->Most of the work (or a long part) is the *query optimizer* that is a structure that enables the DBMS to make changes in the original query to have a better performance. (I should read about this a little bit more)
+>Most of the work (or a long part) is the *query optimizer* [[Query Optimizer]] that is a structure that enables the DBMS to make changes in the original query to have a better performance. (I should read about this a little bit more)
 >
 
 The relational databases are great for the majority of uses cases where relations (duh) are need it, but they come with a complexity:

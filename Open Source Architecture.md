@@ -24,3 +24,5 @@
 - [[Audacity]]
 - [[Asterik]]
 - [[Git]]
+- [[Firefox Release Engineering]]
+- 
