@@ -1,3 +1,5 @@
+Keywords: #bash #git #design
+Lecture link: here
 ## What is Git?
 
 Git enables the maintenance of a digital body of work (often, but not limited to, code) by many collaborators using a peer-to-peer network of repositories. It supports distributed workflows, allowing a body of work to either eventually converge or temporarily diverge.

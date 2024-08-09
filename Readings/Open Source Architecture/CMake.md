@@ -1,3 +1,4 @@
+Keywords: #OOP #C #design 
 Lecture available: [here](https://aosabook.org/en/v1/cmake.html)
 
 ## Before CMake

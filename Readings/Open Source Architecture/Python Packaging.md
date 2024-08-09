@@ -1,3 +1,4 @@
+Keywords: #python #packaging #os
 Lecture link: [here](https://aosabook.org/en/v1/packaging.html)
 
 In terms of installing the applications, there is two main approaches: 
