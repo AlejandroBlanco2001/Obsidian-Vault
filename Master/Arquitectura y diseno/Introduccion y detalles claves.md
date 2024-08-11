@@ -7,3 +7,12 @@
 		- Tecnias de arquitectura
 		- Patrones de diseno
 		- Diseno detallado
+
+## Tutores
+
+![[Pasted image 20240809070705.png]]
+
+## Reglas
+
+![[Pasted image 20240809071409.png]]
+
