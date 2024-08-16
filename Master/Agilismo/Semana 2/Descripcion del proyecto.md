@@ -58,3 +58,7 @@ ganancia = apostado + (\frac{apostado}{couta})
 $$
 - La ganancia de la casa corresponde a la suma de todas las apuestas menos el total pagado a los apostadores que acertaron el ganador por concepto de sus ganancias. 
 	- Un valor negativo de ganancia de la casa indica que la casa debe colocar dinero adicional para cubrir el total a pagar en las apuestas ganadoras, es decir la casa pierde dinero.
+
+De la lectura, salen las siguientes preguntas y desmunzado de la lectura para las clases
+
+[[Modelo de clases y preguntas al cliente]]
