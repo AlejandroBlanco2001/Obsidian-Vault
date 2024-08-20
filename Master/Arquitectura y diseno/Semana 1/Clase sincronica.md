@@ -1,5 +1,6 @@
-**Fecha**: 09/08/20244
+#restricciones-objetivos-negocio #arquitectura-de-software
 
+**Fecha**: 09/08/20244
 Arquitectura se basa en ***atributos de calidad***:
 
 - Latencia, escalabilidad y desempeno (Primera parte del curso)

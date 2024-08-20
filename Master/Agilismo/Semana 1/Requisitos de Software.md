@@ -1,3 +1,5 @@
+Tags #Agilismo 
+
 **Que es un requisito**
 Son especificaciones **sobre lo que debe ser implementado**. Son descripciones sobre **como el sistema debe comportarse** o **una propiedad del sistema o un atributo**
 

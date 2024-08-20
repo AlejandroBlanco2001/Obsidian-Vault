@@ -1,4 +1,6 @@
-	La biblioteca de los Andes quiere construir un nuevo sistema de prestamo
+Tags #Agilismo 
+
+***Enunicado***: La biblioteca de los Andes quiere construir un nuevo sistema de prestamo
 
 **Objetivos**
 - Que no se pierdan los recursos

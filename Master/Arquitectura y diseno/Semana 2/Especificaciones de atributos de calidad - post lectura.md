@@ -1,3 +1,5 @@
+#atributos-de-calidad 
+
 Para tener las especificaciones correctas, debemos tener claros y bien definidios nuestros requisitios funcionales.
 
 Estos requisitos expresan el comportamiento esperado por el usuario con el sistema.

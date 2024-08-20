@@ -1,4 +1,5 @@
-
+#restricciones-objetivos-negocio #arquitectura-de-software
+\
 Para lograr una arquitectura debemos iterar sobre estas 3 fases:
 
 1. Entedimiento del problema

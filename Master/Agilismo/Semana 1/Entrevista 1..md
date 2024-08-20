@@ -1,3 +1,4 @@
+Tags #Agilismo 
 ## Lo unico que siempre constantes es el ***cambio***
 
 - Invertir años en un producto ya no es una posibilidad

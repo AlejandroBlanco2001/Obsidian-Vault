@@ -1,3 +1,5 @@
+#atributos-de-calidad 
+
 Cuando analizamos un problemas, podemos llevarnos la sorpresa de que hay muchos requisitios de calidad, sin embargo, son todos igual de importantes?
 
 - Son todos igual de importantes?

@@ -1,3 +1,4 @@
+Tags #Agilismo 
 ## Que es valor continuo?
 
 Se pueden manejar 3 dimensiones:

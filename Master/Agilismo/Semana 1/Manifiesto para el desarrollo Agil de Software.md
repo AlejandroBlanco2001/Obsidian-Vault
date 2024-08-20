@@ -1,4 +1,4 @@
-
+Tags #Agilismo 
 # Pilares del agilismo
 
 - **Individuos e interacciones** sobre procesos y herramientas

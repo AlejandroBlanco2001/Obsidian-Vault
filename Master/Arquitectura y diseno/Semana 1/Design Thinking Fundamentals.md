@@ -1,3 +1,5 @@
+#restricciones-objetivos-negocio #arquitectura-de-software
+
 Disenar software es descubrir y buscarla, siempre en tu primer dia como arquitecto, esta TBD.
 
 Este enfoque de diseno, se basa en las personas y para las personas:

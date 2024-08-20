@@ -1,3 +1,4 @@
+#restricciones-objetivos-negocio #arquitectura-de-software
 
 **Principios de diseno**
 - Disenar para las personas

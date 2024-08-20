@@ -1,3 +1,4 @@
+#restricciones-objetivos-negocio 
 
 Los **objetivos** son una accion que quiere lograr el cliente, son un deseo basicamente, estos deben ser:
 
