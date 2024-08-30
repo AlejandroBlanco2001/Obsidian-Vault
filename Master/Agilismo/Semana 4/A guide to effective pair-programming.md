@@ -79,7 +79,7 @@ Cosas como el espacio y los tiempos, deben tener todo definido:
 # Cosas para evitar
 
 - Siempre prestale atencion al otro, no te pongas con el telefono o hacer otra cosa.
-- No hagas micro-managemente, deja a la otra persona fluir
+- No hagas micro-management, deja a la otra persona fluir
 - Siempre espera un tiempo antes de comentar algo.
 - Comparte el teclado, no seas acaparador
 - Pair programming no significa sesiones de 8 horas.

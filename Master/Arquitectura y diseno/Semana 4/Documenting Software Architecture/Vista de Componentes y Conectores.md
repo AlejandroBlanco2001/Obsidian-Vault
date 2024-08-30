@@ -78,3 +78,12 @@ Un buen ejemplo podria ser en la notacion ADSL
 Equivalente en UML
 
 ![[Pasted image 20240828233142.png]]
+## Contraste entre modulos y componentes
+
+![[Pasted image 20240829214358.png]]
+
+
+## Implementaciones 
+
+[[Client-Server Style]]
+[[Peer-to-Peer style]]

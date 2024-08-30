@@ -1,0 +1,1 @@
+Tags #design #estilo-arquitectonico  #arquitectura-de-software #componentesyconectores 
