@@ -1,0 +1,1 @@
+Tags #arquitectura-de-software #patrones-de-diseno #modificacion 
