@@ -87,3 +87,4 @@ Equivalente en UML
 
 [[Client-Server Style]]
 [[Peer-to-Peer style]]
+[[Service-Oriented Architecture Style]]

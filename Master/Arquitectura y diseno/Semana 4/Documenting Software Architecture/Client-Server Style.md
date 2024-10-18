@@ -39,4 +39,3 @@ La invocacion del servicio es sincrona: El solicidator del servicio ***espera***
 Esta vista sirva para presentar un sistema que separa al cliente de los servicios que usa. Este estilo soporta el entendimiento del sistema y reusa factorizando servicios comunes. 
 
 Estos servicios permiten multiples clientes, y estos mismos pueden ser replicados con fines de ***escalabidad*** y ***disponibilidad***.
-
