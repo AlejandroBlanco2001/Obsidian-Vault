@@ -1,4 +1,4 @@
-Existen dos grandes categorias que expresan los UML:
+dExisten dos grandes categorias que expresan los UML:
 
 - Estructura
 	- Clase
