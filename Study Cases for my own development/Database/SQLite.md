@@ -1,0 +1,1 @@
+The main structure of the the database is B-Tree
