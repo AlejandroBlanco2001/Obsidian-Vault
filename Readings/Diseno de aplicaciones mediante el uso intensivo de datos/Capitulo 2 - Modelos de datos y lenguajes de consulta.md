@@ -1,13 +1,13 @@
 Tags #databases #query
 
-- El modelo de datos limita nuestro entendimiento y visualizacion de un problema
+- El modelo de datos limita nuestro entendimiento y visualización de un problema
 
 Una de las mayores cuestiones es preguntar inmediatamente como lo represento la capa de abajo?
 
-1. En tu aplicacion web, tendras ***objetos*** que son manipulados por una API
-2. En la transferencia de esos, tendras formatos como ***JSON/XML/grafos/relaciones***
-3. En la base de datos mismas, tendras grafos/relaciones/JSON/XML que deben ser representados en ***bytes***
-4. En el hardware, tendras bytes que son representados como ***corrientes electricas***
+1. En tu aplicación web, tendrás ***objetos*** que son manipulados por una API
+2. En la transferencia de esos, tendrás formatos como ***JSON/XML/grafos/relaciones***
+3. En la base de datos mismas, tendrás grafos/relaciones/JSON/XML que deben ser representados en ***bytes***
+4. En el hardware, tendrás bytes que son representados como ***corrientes eléctricas***
 
 >[!IMPORTANT]
 >Siempre recuerda, cada capa trabaja con el principio de encapsulamento, cada una oculta los detalles de la capa anterior
@@ -106,8 +106,65 @@ Esta asignacion manual, y complejidad de busquedas, volvio al modelo inflexible.
 
 El modelo relacional elimino por completo las estructuras de arboles y grafos (a simple vista) para el desarrollador, haciendo uso solo de relaciones y tuplas, lo que ***escondia toda la complejidad*** para los desarrolladores, la forma de referenciar otras cosas eran mas intiutivas y sencillas de leer.
 
-Estas venian con un ***optimizador de consultas***, lo que se encargaba de realizar, diagnosticar y mejorar el orden de ejecuccion de nuestra consulta con el fin de hacer lo mejor posible, esto claramente eran nuestras ***rutas de acceso***, sin embargo, ya dejaron de ser problema del desarrollador y mas del motor.
+Estas venian con un [[Query Optimizer]], lo que se encargaba de realizar, diagnosticar y mejorar el orden de ejecuccion de nuestra consulta con el fin de hacer lo mejor posible, esto claramente eran nuestras ***rutas de acceso***, sin embargo, ya dejaron de ser problema del desarrollador y mas del motor.
 
 Las bases de datos relacionales sobreviven debido a su optimizador de consultas, estas son el corazon de la mejora, al ser de ***proposito general*** son indistintas de nuestro lenguaje de programacion.
 
-De igual manera, podemos recalcar lo siguiente, mientras nuestras relaciones sean uno a uno, o muchos a muchos, no son fundamentalmente distitnas. 
+De igual manera, podemos recalcar lo siguiente, mientras nuestras relaciones sean uno a uno, o muchos a muchos, no son fundamentalmente distintas. 
+
+### Almacenes triples y SPARQL
+
+Este es una forma de abstraer las bases de datos basadas en ***grafo de propiedades***, se denomina almacén triple, donde contenemos una tripleta de la forma `(sujeto, predicado, objeto)`
+
+Donde el `sujeto` equivale a el vértice dentro de un grafo, el `objeto` puede ser dos cosas:
+- El valor de un tipo de de datos primitivos
+- Otro vértice del grafo
+
+Por ejemplo 
+
+```
+_:lucy a :Person
+_:lucy :name "Lucy"
+_:lucy :bornIn _:Idaho
+....
+```
+
+>[!NOTE]
+>Como un recordatorio, el uso de `_:` denota a un vertice
+
+Un formato que tiene la www (World Wide web) es el ***modelo de datos RDF*** (Resource Description Framework), donde esta creado principalmente para el intercambio de recursos, específicamente sus metadatos.
+
+Debido a que usa el format Turtle (Lenguaje para almacenes triples), es posible ingresarlos dentro de la URI (Unique Resource Identifier), por ejemplo:
+
+```
+http://my.company.com/namespace#within
+http://my.company.com/namespace#lives_in
+```
+
+Cuando hablamos de SPARQL, hablamos del equivalente del modelo de datos para RDF, donde si hacemos una comparación de las consultas hechas en Cypher (Base de datos modelado en grafos) y SPARQL (base de datos basada en el modelo de datos RDF), esta queda mucho mas concisa y clara de leer.
+
+#### Es posible que el modelo de grafos, sea una segunda ola del modelo de redes?
+
+Un pensamiento valido es pensar que una es la continuación o mejora de la otra, sin embargo, la respuesta mas rápida es un **No**.
+
+- En **CODASYL**, hay una restricción por esquema a nivel lógico que no permite una dinamicidad en los hijos de la misma, sin embargo, en el modelo de grafos, cada vértice puede ser creado sin tener en cuenta un esquema previo 
+- En **CODASYL**, teníamos que seguir las famosas **rutas de acceso** para llegar a un registro particular, mientras que en la base de datos de grafos, una búsqueda por ID es lo único para llegar a un vértice en concreto.
+- En **CODASYL**, los hijos de un registro eran un conjunto ordenado, por lo que la base de datos debía mantenerlos ordenados (afectaba la disposición de la información), en las bases de datos de grafo, no es necesario
+- En **CODASYL**, todo era imperativo, por el otro lado, todo era declarativo.
+
+## Los primeros avances: Datalog
+
+Datalog es el primero de todos estos lenguajes de consulta, altamente estudiado en la década de los 80, es uno de los primeros en construir la base de los previamente mencionados.
+
+Aun en día es usado en sistemas basados en modelos de datos Datomic y Cascalo, que constituyen una implementación de Datalog, para consultar grandes conjuntos de datos en Hadoop.
+
+Podemos decir que es muy parecido al formato de almacenamiento triple, sino que usa el formato de `predicado (sujeto, objeto)` 
+
+```
+name (namerica, 'North America')
+type (namerica, continent)
+
+name (usa, 'United State')
+...
+```
+
