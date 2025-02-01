@@ -165,6 +165,4 @@ name (namerica, 'North America')
 type (namerica, continent)
 
 name (usa, 'United State')
-...
 ```
-

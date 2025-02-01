@@ -52,4 +52,3 @@ En el 2010, la empresa Flickr, dio la charla "10 Deploys per Day: Dev and Ops Co
 >De esta charla nace el DoD (DevOpsDays) en Belgica
 
 ## CI Movement
-
