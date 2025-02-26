@@ -1,6 +1,6 @@
 Tags: #disponibilidad #arquitectura-de-software #atributos-de-calidad 
 
-Como describimos [[1 - Introduccion]] sobre la disponibilidad, hablamos en todo sentido de la misma, es decir, disponibilidad de:
+Como describimos [[Master/Arquitectura agiles de software/Semana 2/1 - Introduccion]] sobre la disponibilidad, hablamos en todo sentido de la misma, es decir, disponibilidad de:
 
 - Hardware (Discos duros, fuentes de poder)
 - Software (Componentes)

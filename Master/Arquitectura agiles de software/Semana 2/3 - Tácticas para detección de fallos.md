@@ -9,7 +9,7 @@ Primero debemos detectar eventos que ocasionen fallos:
 
 Algunas de las tácticas que tenemos para **detección de fallas** son:
 
-- Monitor: Un componente donde podemos hacer de ping-pong o hearth-beat para detectar la disponibilidad del sistema
+- Monitor: Un componente donde podemos hacer de ping-pong o heart-beat para detectar la disponibilidad del sistema
 - Votación: Tres componentes (o un numero impar), donde mandan sus resultados a un componente central, donde se comparan los resultados, el resultado diferente es notificado de error
 
 Otras tácticas para la **preparación y reparación**:

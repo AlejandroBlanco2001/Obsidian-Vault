@@ -7,7 +7,7 @@ Dentro de las tácticas de detección de fallas, se encuentra esta táctica.
 
 Hay un componente que se encarga de verificar el estado de salud de estos componentes.
 
-Este monitor inicia el chequeo (ping/echo) o el componente monitoreado puede informar periódicamente que esta bien (heartbeat)
+Este monitor inicia el chequeo (ping/echo) o el componente monitoreado puede informar periódicamente que esta bien (heart-beat)
 
 ![[Pasted image 20250203214518.png]]
 

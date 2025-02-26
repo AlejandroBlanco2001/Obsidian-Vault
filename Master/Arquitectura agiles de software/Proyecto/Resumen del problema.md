@@ -2,7 +2,7 @@ Tags #arquitectura-de-software
 
 # Empresa
 
-Empresa: CCP
+Empresa: **CCP**
 
 Que hacen: Venta de productos masivos en diferentes paises
 Procesos: Se encargan de 
