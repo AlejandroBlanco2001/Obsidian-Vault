@@ -37,12 +37,12 @@ Pero antes de todo esto, debemos tener ***una definición de un problema***. Por
 	- Heterogeneous Environments
 	- Context
 	- Race Conditions
-	- Device/Screens (Relacionado con la fragmentacion)
+	- Device/Screens (Relacionado con la fragmentación)
 
 
 > La arquitectura de MVVM (Model, ViewModel, View, Model) es casi el estándar para dispositivos móviles
 
-# Arquitectura de un aplicacion movil
+# Arquitectura de un aplicación móvil
 - Local Storage
 - Hardware externo (Bandas, relojes, anillos inteligentes...)\
 - Backend 
