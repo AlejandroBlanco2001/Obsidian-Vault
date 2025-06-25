@@ -1,5 +1,7 @@
-Tags #arquitectura-de-software 
-
+---
+tags:
+  - arquitectura-de-software
+---
 # Objetivos
 - Diseñar arquitecturas de software siguiendo procesos ágiles.
 - Enfocarnos en estilos (***Microservicios***)  y tácticas para favorecer **disponibilidad** y **seguridad**.

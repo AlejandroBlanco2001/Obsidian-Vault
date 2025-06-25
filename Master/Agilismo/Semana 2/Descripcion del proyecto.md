@@ -1,3 +1,8 @@
+---
+tags:
+  - Agilismo
+  - master
+---
 Para el proyecto todo se manejara dentro de GitHub, en las historias de usuario, probablemente sera mas facil usar el apartado de **Projects** para que todo sea mas facil:
 
 ***Ejemplo***
@@ -62,3 +67,5 @@ $$
 De la lectura, salen las siguientes preguntas y desmunzado de la lectura para las clases
 
 [[Modelo de clases y preguntas al cliente]]
+#master
+#Agilismo

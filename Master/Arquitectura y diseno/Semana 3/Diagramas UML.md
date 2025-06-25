@@ -1,5 +1,11 @@
-dExisten dos grandes categorias que expresan los UML:
+---
+tags:
+  - diseno-uml
+  - arquitectura-de-software
+  - master
+---
 
+Existen dos grandes categorias que expresan los UML:
 - Estructura
 	- Clase
 	- Paquetes
@@ -40,18 +46,15 @@ Ejemplo completo
 ![[Pasted image 20240824152838.png]]
 
 ## Modelo de despliegue
-
-Ilustra como se comunican y donde estaran alojados nuestros componentes a nivel de unidad de trabajo
+Ilustra como se comunican y donde estarán alojados nuestros componentes a nivel de unidad de trabajo
 
 ![[Pasted image 20240824153230.png]]
 ## Modelo de concurrencia 
-
-Ilusra como se comunican a nivel de procesos de ejecuccion
+Ilustra como se comunican a nivel de procesos de ejecución
 
 ![[Pasted image 20240824153410.png]]
 
 ## Modelo de paquetes
-
 Se encarga de mostrar nuestra organizacion del codigo fuente para ilustrar su indepedencia y como se pueden dividir 
 
 ![[Pasted image 20240824153542.png]]

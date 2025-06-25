@@ -1,6 +1,11 @@
-Tags #QA #e2e 
-
-Esta metodologia de pruebas nace bajo el umbral de *BDD* (Behavioral Driven Development), donde planteamos nuestros escenarios de prueba de manera:
+---
+tags:
+  - QA
+  - e2e
+  - Automatizacion
+  - master
+---
+Esta metodología de pruebas nace bajo el umbral de *BDD* (Behavioral Driven Development), donde planteamos nuestros escenarios de prueba de manera:
 
 - ***Dada*** una situacion previa a nuestra prueba, es decir, el estado del mundo previo a la prueba (***Given***)
 - *Cuando* suceda lo que queremos probar (***When***)

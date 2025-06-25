@@ -1,5 +1,8 @@
-Tags: #cloud 
-
+---
+tags:
+  - cloud
+  - master
+---
 > Modelo que permite el acceso ubicuo, conveniente y bajo demanda a un conjunto compartido de recursos computacionales configurables.
 
 Algunos de los recursos pueden ser:

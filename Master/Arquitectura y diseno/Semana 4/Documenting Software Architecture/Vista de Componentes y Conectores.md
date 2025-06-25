@@ -1,4 +1,11 @@
-Los vistas de C&C (Components & Connector) nos muestan las cosas que cuentan con metodo de ejecuccion como procesos, objectos, clientes, servidores y fuentes de datos, lo que llamamos ***componentes***. De igual manera estos tambien cuentan con nuestras conexiones, puentes, flujos de informacion, lo que llamamos ***conectores***
+---
+tags:
+  - arquitectura-de-software
+  - diseno-uml
+  - componentesyconectores
+  - master
+---
+Los vistas de C&C (Components & Connector) nos muestran las cosas que cuentan con método de ejecución como procesos, objetos, clientes, servidores y fuentes de datos, lo que llamamos ***componentes***. De igual manera estos tambien cuentan con nuestras conexiones, puentes, flujos de informacion, lo que llamamos ***conectores***
 
 ![[Pasted image 20240827075759.png]]
 
@@ -16,10 +23,10 @@ En el ejemplo anterior, los tres tipos de conectores muestran un tipo de interac
 ![[Pasted image 20240827081427.png]]
 ## Elementos 
 
-Dentro de la vista de C&C todos deben ser tener su representacion al momento de ejecutarse (manifestacion como elemento en tiempo de ejecuccion).
+Dentro de la vista de C&C todos deben ser tener su representación al momento de ejecutarse (manifestación como elemento en tiempo de ejecución).
 
 ### Componentes
-Representan los principales elementos que se visualizan durante ejecuccion, cada uno debe tener un nombre, y este debe mostrar su utilidad.
+Representan los principales elementos que se visualizan durante ejecución, cada uno debe tener un nombre, y este debe mostrar su utilidad.
 
 Estos tiene interfaces denominadas ***puertos**** estos pueden ser enumerados, indicando el numero de instancias del mismo (puerto). Por ejemplo, `[3]` significa que 3 ocurrencias de este puerto, `[0..10]` significa que hay de 0 a 10 instancias del mismo.
 

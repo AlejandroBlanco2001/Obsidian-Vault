@@ -1,8 +1,12 @@
-Tags #QA 
+---
+tags:
+  - QA
+  - master
+---
 
 ![[Pasted image 20241011204235.png]]
 
-Debemos medir la calidad de nuestra aplicacion de maneara continua usando tecnnicas de validacion y verificacion.
+Debemos medir la calidad de nuestra aplicación de maneara continua usando técnicas de validación y verificación.
 
 >[!NOTE]
 >Las pruebas con poca intervencion humana suelen ser un gran auxiliar

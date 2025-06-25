@@ -1,5 +1,10 @@
-9Tags: #maquinas-virtuales
-
+---
+tags:
+  - Lectura
+  - maquinas-virtuales
+  - cloud
+  - master
+---
 Recordemos que en un enfoque tradicional (o un computador físico), se instala y se ejecuta en un sistema operativo.
 
 ![[Pasted image 20250330163402.png]]

@@ -1,32 +1,36 @@
-#atributos-de-calidad 
-
-Para tener las especificaciones correctas, debemos tener claros y bien definidios nuestros requisitios funcionales.
+---
+tags:
+  - arquitectura-de-software
+  - master
+  - atributos-de-calidad
+---
+Para tener las especificaciones correctas, debemos tener claros y bien definidos nuestros requisitos funcionales.
 
 Estos requisitos expresan el comportamiento esperado por el usuario con el sistema.
 
 Por ejemplo
 
-> El comprador debe recibir un numero de seguimiento para su envio
+> El comprador debe recibir un numero de seguimiento para su envió
 
 Otra persona nos dice luego
 
-> En menos de un minuto a partir de que el numero sea asignado - ***Desempeno***
+> En menos de un minuto a partir de que el numero sea asignado - ***Desempeño***
 
-Otra persona anade 
+Otra persona añade 
 
 > El 100% de las veces debe salir bien - ***Disponibilidad***
 
 Otra persona dice
 
-> Se deben poder enviar 500 numeros de seguimiento por minuto - ***Escalabilidad***
+> Se deben poder enviar 500 números de seguimiento por minuto - ***Escalabilidad***
 
-Otra persona finalmente anade
+Otra persona finalmente añade
 
-> Se deben poder agregar un nuevo mecanismo de comunicacion en menos de 10 horas/hombre *- **Facilidad de modificacion***
+> Se deben poder agregar un nuevo mecanismo de comunicación en menos de 10 horas/hombre *- **Facilidad de modificación***
 
 Podemos definir el atributo de calidad como:
 
-> Propiedad ***cuantificable*** de un sistema, utilizada para indicar que tan bien ***satisface*** un sistemea las necesidade de los usuarios interesados.
+> Propiedad ***cuantificable*** de un sistema, utilizada para indicar que tan bien ***satisface*** un sistema las necesidades de los usuarios interesados.
 
 ## Definiciones
 
@@ -43,33 +47,26 @@ Podemos definir el atributo de calidad como:
 ## Atributos de calidad 
 
 ### Fuente
-
-Persona (interna o externa), o componente que ejecuta la accion.
+Persona (interna o externa), o componente que ejecuta la acción.
 
 ### Eventos
-
-- Esporadico: No sabemos si pasara, pero puede pasar.
-- Periodico: Que ocurre cada cierto tiempo.
-- EStocastico: Que ocurre en cualquier momento, pero sabemos que puede pasar.
+- Esporádico: No sabemos si pasara, pero puede pasar.
+- Periódico: Que ocurre cada cierto tiempo.
+- Estocástico: Que ocurre en cualquier momento, pero sabemos que puede pasar.
 
 ### Artefacto
-
 Donde se aplica el estimulo. inicialmente, es el sistema completo
 
 ### Respuesta
-
-Comportamiento  esperado
+Comportamiento esperado
 
 ### Medida de la respuesta
-
 Condicion de calidad que se desea ver cumplida en la respuesta 
 
 ### Ambiente
-
 Contexto del escenario, por ejemplo:
-
 - Normal
-- Caida
+- Caída
 - DDOS
 
 ![[Pasted image 20240816114139.png]]

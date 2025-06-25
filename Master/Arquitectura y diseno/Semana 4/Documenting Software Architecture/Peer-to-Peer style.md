@@ -1,5 +1,10 @@
-Tags #arquitectura-de-software #design #estilo-arquitectonico #componentesyconectores
-
+---
+tags:
+  - arquitectura-de-software
+  - diseno-uml
+  - estilo-arquitectonico
+  - componentesyconectores
+---
 El estilo de peer-to-peer (red entre pares), los componentes son directamente pares que se intercambian servicios. La comunicacion que se presentan en este parecida a la de request/reply, sin embargo, ***no es asimetrica***.
 
 Esto permite que cada par pueda interactuar (en teoria) con cualquier otro componente, solo solicitando sus servicios. 

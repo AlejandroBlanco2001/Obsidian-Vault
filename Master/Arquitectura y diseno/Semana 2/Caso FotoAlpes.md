@@ -1,4 +1,9 @@
-#atributos-de-calidad 
+---
+tags:
+  - atributos-de-calidad
+  - master
+  - arquitectura-de-software
+---
 
 ![[Pasted image 20240816175517.png]]
 

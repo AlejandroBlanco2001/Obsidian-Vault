@@ -1,5 +1,9 @@
-Tags: #Agilismo #KanBan
-
+---
+tags:
+  - Agilismo
+  - KanBan
+  - master
+---
 La planeación del sprint es una ceremonia de Scrum, esto siempre ocurre al inicio de cada sprint
 
 > Esto es para definir las tareas que se realizaran para el sprint

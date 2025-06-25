@@ -1,5 +1,11 @@
-Tags #design #estilo-arquitectonico  #arquitectura-de-software #componentesyconectores 
-
+---
+tags:
+  - diseno-uml
+  - estilo-arquitectonico
+  - arquitectura-de-software
+  - componentesyconectores
+  - master
+---
 Consiste en una coleccion de componentes distrubuidos que proveen y/o consumen servicios. Estos consumidorses y provedores pueden estar implementados en distintos lenguajes y plataformas. 
 
 Los servicios deben ser completamente standalone (independiente): consumidores y proveedores son usualmente desplgados independiente, y muchas veces pertenecen a diferentes sistemas o hastas organizaciones

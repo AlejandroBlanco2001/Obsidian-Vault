@@ -1,5 +1,9 @@
-Tags: #arquitectura-de-software #disponibilidad #atributos-de-calidad 
-
+---
+tags:
+  - arquitectura-de-software
+  - disponibilidad
+  - atributos-de-calidad
+---
 ## Monitor
 Para este caso se crea un componente externo que actúa como un monitor, que de periódicamente este siendo notificado del estado de salud de los otros micro-servicios .
 

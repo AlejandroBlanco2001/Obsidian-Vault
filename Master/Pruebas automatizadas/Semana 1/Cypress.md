@@ -1,5 +1,9 @@
-Tags #QA #Cypress
-
+---
+tags:
+  - QA
+  - Cypress
+  - master
+---
 Cypress es un framework que nos permite generar e interactuar con un navegador web para realizar nuestras pruebas automatizadas, con este podemos interactuar con nuestra aplicacion y hacer las pruebas automatizadas.
 
 >[!IMPORTANT]

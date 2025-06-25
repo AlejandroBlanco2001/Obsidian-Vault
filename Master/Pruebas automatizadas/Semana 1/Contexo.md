@@ -1,5 +1,8 @@
-Tags #QA 
-
+---
+tags:
+  - QA
+  - master
+---
 He sido contratado por TSDC (***The Software Design Company***) para inicar mi proceso de automatizador junior.
 
 GHOST es el producto abandereado de la compania para el cual tienen previos una liberacion de 3-4 versiones diferentes de la misma. Algunos retos a afrontar:

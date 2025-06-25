@@ -1,9 +1,13 @@
-#restricciones-objetivos-negocio #arquitectura-de-software
-
+---
+tags:
+  - restricciones-objetivos-negocio
+  - arquitectura-de-software
+  - master
+---
 **Fecha**: 09/08/20244
 Arquitectura se basa en ***atributos de calidad***:
 
-- Latencia, escalabilidad y desempeno (Primera parte del curso)
+- Latencia, escalabilidad y desempeño (Primera parte del curso)
 - Modificabilidad (Segunda parte del curso)
 
 Necesitamos tener datos cuantificables, para definir nuestro **ASR** (Architecture Significant Requirements)

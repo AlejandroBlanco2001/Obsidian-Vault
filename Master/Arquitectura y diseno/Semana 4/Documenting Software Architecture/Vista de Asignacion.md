@@ -1,17 +1,22 @@
-Tags #diseno-uml #arquitectura-de-software #design 
-
+---
+tags:
+  - diseno-uml
+  - arquitectura-de-software
+  - alocacion
+  - master
+---
 Recordemos que nuestra arquitectura sera usadas por humanos para humano, asi que concentrarse netamente en la arquitectura como un conjunto de software, no es un buen enfoque.
 
->[!IMPORTANT]\
+>[!IMPORTANT]
 >Recordemos que los modulos, C&C y los elementos de asignacion son parte de la arquitectura, y ***son los que nos permite razonar sobre un sistema***
 
-Estas vistas son encargas de relacionar componentes de software, como lo son (elementos de la vista de modulos o componentes y conectores) con elementos que no son software.
+Estas vistas son encargas de relacionar componentes de software, como lo son (elementos de la vista de módulos o componentes y conectores) con elementos que no son software.
 
 Contamos con varios estilos como;
 
-- Deployment style: Describe la relacion entre los componentes del software y conectores con el hardware de ejecuccion del programa
+- Deployment style: Describe la relación entre los componentes del software y conectores con el hardware de ejecución del programa
  
-- Install style: Describe la relacion entre los componetes y sus estructuras en los sistemas de archivos del entorno de produccion.
+- Install style: Describe la relación entre los componentes y sus estructuras en los sistemas de archivos del entorno de producción.
  
 - Work assignment stlye: Describe la relacion entre los modulos del sistema y las personas/equipos o organizaciones de trabajo unitarios asignados al desarrollo del mismo.
 
@@ -22,7 +27,7 @@ Contamos con varios estilos como;
 
 # Elementos, relaciones y uso
 
-La relacion de estos elementos se basa en la ***allocated-to*** (asignado con). Usualmente hablamos de los estilos asignacion en terminos de relacion de piezas de software con su entorno.
+La relación de estos elementos se basa en la ***allocated-to*** (asignado con). Usualmente hablamos de los estilos asignacion en terminos de relacion de piezas de software con su entorno.
 
 Una sola pieza de software puede ser asignada a muchos elementos ambientales. Si estas asignaciones cambian con el tiempo, el arquitecto debe contemplar dichas dinamicas
 
@@ -33,6 +38,5 @@ Sus propiedades especificas que se deben incluir varian segun su propositio. La 
 O es posible que una plataforma de computo no permita que una tarea use mas de 10Kb de memeoria virtual. En este caso, un modelo de ejecucion del software, puede ser usado para determinar la cantidad de memoria virtual requerida,
 
 # Ejemplos
-
 [[Deployment Style]]
 

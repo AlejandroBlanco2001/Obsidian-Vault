@@ -1,5 +1,10 @@
-Tags; #arquitectura-de-software #disponibilidad #atributos-de-calidad 
-
+---
+tags:
+  - arquitectura-de-software
+  - disponibilidad
+  - atributos-de-calidad
+  - master
+---
 Primero debemos detectar eventos que ocasionen fallos:
 
 - **Omisión**: El sistema no responde ante un estimulo

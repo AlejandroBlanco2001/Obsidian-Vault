@@ -1,6 +1,10 @@
-Tags: #cloud #sistemas-distribuidos
-
-*Tecnologia:*  Grandes datacenters con hardware comun y capacidad de escalar
+---
+tags:
+  - cloud
+  - sistemas-distribuidos
+  - master
+---
+*Tecnología:*  Grandes datacenters con hardware común y capacidad de escalar
 *Economia:* Inmensa agilidad y eficiencia
 *Modelo de negocio:* Pago bajo demanda y uso
 

@@ -1,4 +1,10 @@
-Tags #seguridad #arquitectura-de-software 
+---
+tags:
+  - seguridad
+  - arquitectura-de-software
+  - master
+  - entrevistas
+---
 
 - Al momento de trabajar microservicios, estos se ven directamente afectados por la ***ley de Conway***, que establece que un sistema es un fiel reflejo de las estructuras sociales de las personas que lo crean.
 	- Por ejemplo, imagina que tienes un microservicio A desarrollado por el equipo A, y tienes otro microservicio B desarrollado por el equipo B, puede darse el caso donde uno de los dos microservicios no tenga las mejores practicas de seguridad posible.

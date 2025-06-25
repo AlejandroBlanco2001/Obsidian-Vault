@@ -1,35 +1,41 @@
-Tags #patrones-de-diseno #diseno-uml #arquitectura-de-software 
-
+---
+tags:
+  - patrones-de-diseno
+  - diseno-uml
+  - arquitectura-de-software
+  - master
+  - Lectura
+---
 Recordemos que esto son formas probadas de resolver problemas conocidos en el mundo del software, especialmente para la:
 
-- Creacion
-	Se concentra en patrones para facilitar la creacion de objetos
+- Creación
+	Se concentra en patrones para facilitar la creación de objetos
 - Comportamiento
-	Se concetran en patrones para asignar responsabilidades entre objetos
-- Estructuracion
-	Se concentra en patrones para ensamblar la creacion de objetos complejos
+	Se concentran en patrones para asignar responsabilidades entre objetos
+- Estructuración
+	Se concentra en patrones para ensamblar la creación de objetos complejos
 
 ## Patron Singleton 
-Continuar lectura y posibles ejemplos practicos en la nota [[Patron SIngleton]]
+Continuar lectura y posibles ejemplos prácticos en la nota [[Singleton Pattern]]
 
 Tipo: Creacional
 
-La intencion de este patron es asegurar la creacion de una instancia unica de una clase, y ofrecer un acceso global para el mismo.
+La intención de este patron es asegurar la creación de una instancia única de una clase, y ofrecer un acceso global para el mismo.
 
-La motivacion detras de este es asegurar que solo se cree una instanncia de una clase, porque es importante que no exista mas de una o simplemente necesitamos una, y no podemos permitir que otras existan.
+La motivación detrás de este es asegurar que solo se cree una instancia de una clase, porque es importante que no exista mas de una o simplemente necesitamos una, y no podemos permitir que otras existan.
 
 Por ejemplo:
 - No necesitamos muchos sistemas de archivos, ni manejador de ventanas
-- Necesitamos solo un conversor de A/D en un sistema electrico
+- Necesitamos solo un conversor de A/D en un sistema eléctrico
 - Conectores a bases de datos 
 
- Por ende, hacer una variable global para eso es imprudente, porque igual deja el espacio para que tu crees una instancia de la misma. Por este motivo, ***hacemos a la clase responsable de manejar su propia creacion***
+ Por ende, hacer una variable global para eso es imprudente, porque igual deja el espacio para que tu crees una instancia de la misma. Por este motivo, ***hacemos a la clase responsable de manejar su propia creación***
 
-Representacion en UML
+Representación en UML
 
 ![[Pasted image 20240907185832.png]]
 
-Implementacion en Python
+Implementación en Python
 
 ```
 clas SingletonMeta(type):
@@ -58,11 +64,11 @@ if __name__ == "__main__":
 ```
 
 ## Patron Facade
-Continuar lectura y posibles ejemplos practicos en la nota [[Patron Facade]]
+Continuar lectura y posibles ejemplos prácticos en la nota [[Patron Facade]]
 
 Tipo: Estructural
 
-La intencion detras de este patron es brindar una interfaz unificada y manejable para un conjunto de otras interfaces dentro del sistema. La fachada cumple una funcion de hacer el sistema mas sencillo de usar 
+La intención detrás de este patron es brindar una interfaz unificada y manejable para un conjunto de otras interfaces dentro del sistema. La fachada cumple una funcion de hacer el sistema mas sencillo de usar 
 
 La creacion de subsistemas dentro de nuestro sistema ayuda a manejar la complejidad, sin embargo, creamos dependencias y comunicaciones. Esa es la motivacion de la fachada, brindar un sitio unificado donde todo eso pase y exponer una sola cosa para su uso.
 
@@ -126,36 +132,36 @@ if __name__ == "__main__":
 ```
 
 ## Patron Mediador
-Continuar lectura y posibles ejemplos practicos en la nota [[Patron Mediador]]
+Continuar lectura y posibles ejemplos prácticos en la nota [[Patron Mediador]]
 
 Tipo: Comportamiento
 
-La intencion detras de este patron la creacion de un objeto que encapsule como un conjunto en particular de objetos interactua. El patron Mediador promueve un bajo acoplamiento manteniendo a cada objeto sin refirse entro si (de manera explicitia), por esto, podemos usarlos de manera independiente
+La intención detrás de este patron la creación de un objeto que encapsule como un conjunto en particular de objetos interactua. El patron Mediador promueve un bajo acoplamiento manteniendo a cada objeto sin referirse entro si (de manera explicitia), por esto, podemos usarlos de manera independiente
 
-En la POO se pruevo la distrubucion de comportamiento entre objetos. Dicha distribucion puede resultar en objetos relacionados con otros objetos. En el peor caso, todos saben de la existencia de otro objeto.
+En la POO se prueba la distribución de comportamiento entre objetos. Dicha distribución puede resultar en objetos relacionados con otros objetos. En el peor caso, todos saben de la existencia de otro objeto.
 
-Aunque esta creacion ayuda a la reusabilidad, las conexion pueden hacer que esa ayuda se pierda. De igual manera, generamos que los objetos entre si tengan una ***dependencia***, 
+Aunque esta creación ayuda a la reusabilidad, las conexión pueden hacer que esa ayuda se pierda. De igual manera, generamos que los objetos entre si tengan una ***dependencia***, 
 
-Imagina una ventana, siempre hay una dependencia entre dichos objetos, el boton se deshabilita cuando un campo esta habilitado, y este nace de un **list box**. Los dialogos pueden tener distintos comportamientos entre los widgets que usan, entonces aunque el dialogo muestre widgets (hasta del mismo tipo), ellos no pueden re-utilizar los widgets, y hacer muchas subclases seria tedioso.
+Imagina una ventana, siempre hay una dependencia entre dichos objetos, el botón se deshabilita cuando un campo esta habilitado, y este nace de un **list box**. Los diálogos pueden tener distintos comportamientos entre los widgets que usan, entonces aunque el dialogo muestre widgets (hasta del mismo tipo), ellos no pueden re-utilizar los widgets, y hacer muchas subclases seria tedioso.
 
-Imaginate si tuvieras una solucion... para eso existe el objecto ***mediador***, que se encarga de encapsular comportamietnos colectivos. Este es responsable de ***controlar*** y ***coordinar*** la interaccion entre un grupo de objectos. Los objetos solo conocen al mediador, no al resto de clases.
+Imagínate si tuvieras una … para eso existe el objeto ***mediador***, que se encarga de encapsular comportamiento colectivos. Este es responsable de ***controlar*** y ***coordinar*** la interacción entre un grupo de objetos. Los objetos solo conocen al mediador, no al resto de clases.
 
-Siguiendo el caso de la ventana, imaginate un mediador llamado ***FontDialogDirector*** puede ser el mediador entre los widgets y su dialog.
+Siguiendo el caso de la ventana, imagínate un mediador llamado ***FontDialogDirector*** puede ser el mediador entre los widgets y su dialog.
 
 ![[Pasted image 20240907193423.png]]
 
-En un diagrama de interaccion se veria asi
+En un diagrama de interacción se vería así
 
 ![[Pasted image 20240907193448.png]]
 
 Asi podriamos observarlo en forma de clases
 ![[Pasted image 20240907193536.png]]
 
-Representacion general en UML
+Representación general en UML
 
 ![[Pasted image 20240907193639.png]]
 
-Implementacion en Python
+Implementación en Python
 
 ```python
 from __future__ import annotations

@@ -1,5 +1,10 @@
-Tags #seguridad #tacticas-arquitectura #microservicios #arquitectura-de-software 
-
+---
+tags:
+  - seguridad
+  - tacticas-arquitectura
+  - microservicios
+  - arquitectura-de-software
+---
 Si pensamos en la superficie de ataque de una aplicación monolítica en teoría solo hay un punto de entrada (en lo personal, diría que hay dos), pero esto es mas controlable, ya que solo la capa de presentación es lo que afecta al usuario.
 
 Sin embargo, en un microservicios hay multiples entradas por cada microservicio, donde cada microservicio puede ser una superficie de ataque.

@@ -1,38 +1,37 @@
-Tags #QA 
-
+---
+tags:
+  - QA
+  - master
+---
 # Prueba manuales
-Son pruebas realizadas ***por personas directamante***, estas se carcterizan por ser muy valiosas, pero bastantes costosas.
+Son pruebas realizadas ***por personas directamente***, estas se caracterizan por ser muy valiosas, pero bastantes costosas.
 
-Por eso mismo siempre debemos optimizar el consumo y distribucion de los recursos de pruebas.
+Por eso mismo siempre debemos optimizar el consumo y distribución de los recursos de pruebas.
 
-
-# Pruebas automaticas
-Son pruebas que ***no requieren intervencion humana***, estas generan:
+# Pruebas automáticas
+Son pruebas que ***no requieren intervención humana***, estas generan:
 
 - Reporte
-- Instrucciones de ejecuccion
+- Instrucciones de ejecución
 - Trazabilidad del error
 
-Esto se puede ver que no requiere intervencion humana en ningun paso, y debe cumplir con esto si o si:
+Esto se puede ver que no requiere intervención humana en ningún paso, y debe cumplir con esto si o si:
 
-- Ejecuccion autonoma
-- Generacion de reportes sin intervencion humana
-- Generacion automatica de secuencias de eventos
+- Ejecución autónoma
+- Generación de reportes sin intervención humana
+- Generación automática de secuencias de eventos
 - Oraculo inferido automaticamente.
 
 # Pruebas automatizadas
-Son pruebas que existe ***soporte de una maquina para la generacion o ejecuccion*** de la prueba, sin embargo, aun tiene componente humano.
+Son pruebas que existe ***soporte de una maquina para la generación o ejecución*** de la prueba, sin embargo, aun tiene componente humano.
 
 >[!NOTE]
 >Combinacion de esfuerzos
 
-
 >[!IMPORTANT]
 >Toda prueba automatica es automatizada, pero no toda prueba automatizada es automatica
 
-
 # Oraculo de pruebas
-
 Mecanismo que nos permite determinar si una prueba es exitosa o fallida, es decir, el conjunto de comportamientos de los resultados esperados al ejecutar una prueba.
 
 - Usualmente definido por quien disena o ejecuta la prueba

@@ -1,5 +1,11 @@
-Tags #QA #e2e
-
+---
+tags:
+  - QA
+  - e2e
+  - PruebasAutomaticas
+  - Automatizacion
+  - master
+---
 Recordemos esto
 
 | Tipo de prueba                          | Validar combinaciones de caso de uso |
@@ -7,8 +13,7 @@ Recordemos esto
 | Pruebas de reconocimiento manuales      | Si                                   |
 | Pruebas de reconocimiento automatizadas | No                                   |
 | Pruebas de extremo a extremo            | Si                                   |
-
-# Pruebas "end-to-end" o (e2e
+# Pruebas "end-to-end" o (E2E)
 
 - Esta se encarga de verificar varios casos de uso al mismo tiempo, este ***se encarga de validar el sistema entero***, de inicio a fin.
 

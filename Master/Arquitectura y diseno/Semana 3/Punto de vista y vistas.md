@@ -1,3 +1,9 @@
+---
+tags:
+  - diseno-uml
+  - arquitectura-de-software
+  - master
+---
 Un solo diagrama no puede mostrar nuestra arquitectura a todo el mundo, puesto que, no puede encapsular todo en un solo momento.
 
 De igual manera, los intereses de las personas involucradas no necesitan tener la misma visualizacion necesaria.

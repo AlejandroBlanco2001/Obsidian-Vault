@@ -1,5 +1,11 @@
-Tags #arquitectura-de-software #diseno-uml #estilo-arquitectonico #componentesyconectores 
-
+---
+tags:
+  - arquitectura-de-software
+  - diseno-uml
+  - estilo-arquitectonico
+  - master
+  - componentesyconectores
+---
 Es un estilo donde los servicios exponen un set de servicios que pueden ser invocados por otro componentes. Esta invocacion ***bloquea*** el llamado hasta que este queda realizado por completo.
 
 >[!NOTE]

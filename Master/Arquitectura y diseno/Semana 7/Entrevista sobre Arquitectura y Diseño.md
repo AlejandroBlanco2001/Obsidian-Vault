@@ -1,5 +1,9 @@
-Tags #arquitectura-de-software #conversatorio
-
+---
+tags:
+  - arquitectura-de-software
+  - conversatorio
+  - master
+---
 ## Que caracteriza a un buen arquitecto?
 
 - Un arquitecto debe ver un conjunto, del conjunto a las partes. Siempre debemos buscar armonia, ayuda a una comunidad y resuelve un problema al negocio
@@ -57,4 +61,3 @@ Tags #arquitectura-de-software #conversatorio
 - Analogia de la cocina, tu puedes modificar la receta segun tu contexto
 - Un patron no debe ser limpio siempre.
 - Recuerda, los patrones son un principio de Paretto, un 80% de los resultados se consigue con un 20% de los patrones. No debes usarlos todos y probablemente jamas los uses
-- 

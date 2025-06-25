@@ -1,5 +1,10 @@
-Tags: #tacticas-arquitectura #disponibilidad #microservicios 
-
+---
+tags:
+  - tacticas-arquitectura
+  - disponibilidad
+  - microservicios
+  - master
+---
 Estos patrones que vamos a comentar solo aplica para microservicios que se van a comunicar de manera síncrona, muy probablemente esto no aplique para los que se comuniquen de otra manera.
 
 ## Monitor

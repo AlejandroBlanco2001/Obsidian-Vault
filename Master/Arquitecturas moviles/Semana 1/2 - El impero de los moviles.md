@@ -1,5 +1,8 @@
-Tags: #mobile 
-
+---
+tags:
+  - mobile
+  - master
+---
 Con el tiempo, los móviles fueron tomando grande fuerza en el mercado, creando multiples tipos de móviles (tamaños y sistemas operativos) y aplicaciones dentro de ellas, resultando dos grandes grupos de sistemas operativos:
 
 - iOS

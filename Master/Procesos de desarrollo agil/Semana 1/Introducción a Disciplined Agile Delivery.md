@@ -1,5 +1,8 @@
-Tags: #Agilismo 
-
+---
+tags:
+  - Agilismo
+  - master
+---
 > Este fue inventado por Scott Amber y Mark Lines en al 2012
 
 El framework DAD (Disciplined Agile Delivery) es usado tanto por empresas pequeñas como organizaciones grandes. Este cuenta con un enfoque ***hibrido***

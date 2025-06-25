@@ -1,10 +1,13 @@
-Tags #microservicios #colas-mensajes #comunicacion-asincronica
-
-Un microservicio puede interactuar puede recibir:
+---
+tags:
+  - microservicios
+  - colas-mensajes
+  - comunicacion-asincronica
+---
+Un microservicio puede interactuar y/o puede recibir:
 - eventos
 - consultas 
 - comandos
-
 Estos a su vez, pueden generar eventos que otros microservicios escuchan y procesan, este esquema es llamado ***coreografía basada en mensajes***
 
 ![[Pasted image 20250215190715.png]]

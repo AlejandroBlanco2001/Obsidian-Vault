@@ -1,5 +1,10 @@
-Tags: #PairProgramming #SoftSkills
-
+---
+tags:
+  - PairProgramming
+  - SoftSkills
+  - Agilismo
+  - master
+---
 >[!NOTE]
 > La programacion en parejas como concepto es algo nuevo, sin embargo, ***Jean Bartik*** una de las pioneras de ENIAC, hizo por mucho tiempo esta practica
 

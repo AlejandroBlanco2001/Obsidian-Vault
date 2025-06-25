@@ -31,7 +31,7 @@ De estos estudios se enfocaron en ***brindar valor a traves de un pensamiento si
 - Humilidad
 - Respetar a cada individuo
 
-## Agile Manifesto
+## Agile Manifestó
 
 Doce personas con mucha experiencia en el mundo del desarrollo de software, querian generar un conjunto de valores ligeros ante un munod del desarrollo con valores pesados como Cascada y RUT.
 

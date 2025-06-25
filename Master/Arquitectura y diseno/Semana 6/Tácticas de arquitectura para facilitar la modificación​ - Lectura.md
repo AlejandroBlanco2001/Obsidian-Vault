@@ -1,9 +1,17 @@
+---
+tags:
+  - tacticas-arquitectura
+  - modificacion
+  - master
+  - arquitectura-de-software
+---
+
 Siempre debemos trabajar con la mentalidad de aumentar la cohesion.
 
 > [!IMPORTANT]
 > Si nuestro sistema es con alta cohesion, muy probablemente un cambio no afecte a otra parte del sistema
 
-Podemos pensar el escenario del envio de una orden
+Podemos pensar el escenario del envió de una orden
 
 - Alta cohesion, especializamos a cada uno
 
@@ -13,6 +21,6 @@ Podemos pensar el escenario del envio de una orden
 
 ![[Pasted image 20240912190715.png]]
 
-- Reduccion de modulos
+- Reducción de módulos
 
 ![[Pasted image 20240912190753.png]]

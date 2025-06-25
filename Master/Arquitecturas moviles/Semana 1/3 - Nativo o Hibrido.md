@@ -1,5 +1,8 @@
-Tags #mobile 
-
+---
+tags:
+  - mobile
+  - master
+---
 Las aplicaciones fueron evolucionando, debido a que tener una aplicacion por cada sistema operativo implicaba mucho coste:
 
 - Capacitación de la gente

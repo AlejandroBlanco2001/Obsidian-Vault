@@ -1,5 +1,9 @@
-Tags #arquitectura-de-software #diseno-uml 
-
+---
+tags:
+  - arquitectura-de-software
+  - diseno-uml
+  - master
+---
 Que vistas debe incluir una arquitectura (Catalogo de puntos de vista) depende del proyecto a utilizar y sus necesidades:
 
 - 4+1 (Krutchan)

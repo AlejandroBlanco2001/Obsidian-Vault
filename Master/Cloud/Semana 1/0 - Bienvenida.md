@@ -1,5 +1,8 @@
-Tags #cloud
-
+---
+tags:
+  - cloud
+  - master
+---
 La computación en la nube (o cloud) es uno de los mas grandes cambios en el mundo del software en los últimos anos.
 
 > [!NOTE]

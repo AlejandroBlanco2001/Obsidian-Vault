@@ -1,5 +1,9 @@
-#atributos-de-calidad 
-
+---
+tags:
+  - atributos-de-calidad
+  - master
+  - arquitectura-de-software
+---
 Las restricciones suelen ser decisiones que fueron tomodas por alguien mas, sin embargo, pudiste hacerlas tu en algun momento, basicamente nos acotan el trabajo.
 
 - Tecnologia: Atacan a decsiones de diseño

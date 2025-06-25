@@ -1,15 +1,21 @@
-Tags #QA #e2e 
-
-# Usando APIs para automatizacion
+---
+tags:
+  - QA
+  - e2e
+  - PruebasAutomaticas
+  - Automatizacion
+  - master
+---
+# Usando APIs para automatización
 
 ## APIs
-- Para moviles
+- Para móviles
 	- Android: Android UI Automation, Appium, Robotium, AndroidX Test y Android Espresso. 
 	- IOS: XC Test
 - Para web:
 	- Selenium, Protractor, Cypress, Jest, Mocha, Puppeteer y Playwright
 
-### Criterios para seleccion de una API
+### Criterios para selección de una API
 
 - Tener en cuenta la arquitectura y lenguaje del producto bajo pruebas
 - APIs que tengan soporte de comunidad
@@ -21,7 +27,7 @@ Tags #QA #e2e
 >[!NOTE]
 >Cypress por ejemplo, tiene esta funcionalidad de esperar el pintado del componente
 
-# Usando un lenguaje de especificacion
+# Usando un lenguaje de especificación
 
 >[!NOTE]
 > Gerkin es un ejemplo de este lenguaje
@@ -30,8 +36,8 @@ Tags #QA #e2e
 
 ## BDD
 
-1. Escenarios de prueba con documentacion ejecutable
-2. Deben escribirse antes de crear el codiog
+1. Escenarios de prueba con documentación ejecutable
+2. Deben escribirse antes de crear el código
 
 >[!NOTE]
 >Escenarios de prueba se escriben en lenguajes de especificacion

@@ -1,5 +1,8 @@
-Tags #Agilismo  
-
+---
+tags:
+  - Agilismo
+  - master
+---
 Recordemos lo mencionado en [[1 - Fase de planeación de la fase de inicio]] sobre la velocidad
 
 > Es la cantidad de puntos de usuarios que se pueden resolver por sprint 

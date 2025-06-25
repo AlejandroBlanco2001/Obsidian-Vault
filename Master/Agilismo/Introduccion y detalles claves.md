@@ -1,3 +1,8 @@
+---
+tags:
+  - Agilismo
+  - master
+---
 - Cuatro practicas
 	- Historias de Usuario
 	- Manejo de versiones

@@ -1,6 +1,12 @@
-Tags #QA #e2e 
-
-Cuando realizamos nuestras pruebas de punta a punta, estas estan sujetas a trabajar sobre nuestro HTML (probablemente eso es lo unico que haran), por ende, siempre tenemos que tener en cuenta que esta ***UI va a cambiar***, y no queremos que nuestras pruebas se vean afectadas por lo mismo.
+---
+tags:
+  - QA
+  - e2e
+  - master
+  - PruebasAutomaticas
+  - Automatizacion
+---
+Cuando realizamos nuestras pruebas de punta a punta, estas están sujetas a trabajar sobre nuestro HTML (probablemente eso es lo único que harán), por ende, siempre tenemos que tener en cuenta que esta ***UI va a cambiar***, y no queremos que nuestras pruebas se vean afectadas por lo mismo.
 
 Por ende, podemos usar la arquitectura de ***PageObject***, donde basicamente al API se encarga de la aplicacion, mas no del HTML
 

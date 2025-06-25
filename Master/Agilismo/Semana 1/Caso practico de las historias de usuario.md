@@ -1,12 +1,16 @@
-Tags #Agilismo #historias-de-usuario
-
-**Identificacion de usuarios**
+---
+tags:
+  - Agilismo
+  - historias-de-usuario
+  - master
+---
+**Identificación de usuarios**
 - Independientes
 - Interesados
 
-**Identificacion de historias de usuario**
-- "Al inscribir sus servicios deben dar la siguiente informacion"
-- "Consultar el listado de independientres registrados"
+**Identificación de historias de usuario**
+- "Al inscribir sus servicios deben dar la siguiente información"
+- "Consultar el listado de independientes registrados"
 - "El listado de independiente se debe poder filter por los diferentes servicios que se registran en el portal"
 - "Consultar los detales del independiente haciendo click sobre su tarjeta"
 - "Los independientes que se han inscrito pueden hacer login en el sistema"
@@ -23,7 +27,7 @@ Tags #Agilismo #historias-de-usuario
 - Independientes
 	- No dependen una de la otra
 
-Para una segunda revision, **se verifica** 
+Para una segunda revisión, **se verifica** 
 - Completo
 	- Cumple todas las funcionalidades
 - Consistente

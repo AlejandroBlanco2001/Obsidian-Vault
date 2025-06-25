@@ -1,10 +1,15 @@
-Tags #estilo-arquitectonico #arquitectura-de-software #modificacion
-
-Teniendo en cuenta la siguiente modificacion 
+---
+tags:
+  - estilo-arquitectonico
+  - arquitectura-de-software
+  - modificacion
+  - master
+---
+Teniendo en cuenta la siguiente modificación 
 
 ![[Pasted image 20240912184038.png]]
 
-# Tacticas de arquitectura
+# Tácticas de arquitectura
 
 ![[Pasted image 20240912184114.png]]
 
@@ -19,14 +24,14 @@ Por ejemplo, una correccta abstraccion para la reduccion de acoplamiento
 
 ![[Pasted image 20240912184904.png]]
 
-Asi se ve el caso de foto alpes 
+Así se ve el caso de foto alpes 
 
 ![[Pasted image 20240912184956.png]]
 
 ## Contraste con el escenario de calidad 
 ![[Pasted image 20240912185019.png]]
 
-Idae 1
+Idea 1
 ![[Pasted image 20240912185050.png]]
 
 Idea 2

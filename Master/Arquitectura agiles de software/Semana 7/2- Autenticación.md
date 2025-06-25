@@ -1,5 +1,11 @@
-Tags #tacticas-arquitectura #seguridad #arquitectura-de-software #atributos-de-calidad 
-
+---
+tags:
+  - tacticas-arquitectura
+  - seguridad
+  - arquitectura-de-software
+  - atributos-de-calidad
+  - master
+---
 Podemos definir nuestras tácticas en los siguientes grupos: 
 - Detección de ataques
 - Resistir ataques
@@ -15,6 +21,7 @@ Podemos definir nuestras tácticas en los siguientes grupos:
 	- Los retardos pueden indiciar la posibilidad de un ataque de tipo "hombre en el medio"
 
 ## Resistir los ataques
+
 > Superficie de ataque son todos los puntos de contacto entre el exterior y el sistema a crear
 
 - Identificar los actores

@@ -1,12 +1,15 @@
-Tags: #arquitectura-de-software #seguridad #atributos-de-calidad 
-
+---
+tags:
+  - arquitectura-de-software
+  - seguridad
+  - atributos-de-calidad
+  - master
+---
 El atributo de calidad de esta semana es la ***Seguridad***, en este caso, podemos separarlos en dos:
-
 - Confidencialidad
 - Integridad
 - Disponibilidad
-
-Durante la semana seguiremos modelos de ataque como STRIDE (Desarrollado por Microsoft):
+Durante la semana seguiremos modelos de ataque como ***STRIDE*** (Desarrollado por Microsoft):
 - S (Spoofing / Suplantación)
 - T (Tampering / Alteración de la información) 
 - R (Repudiation / Repudio)

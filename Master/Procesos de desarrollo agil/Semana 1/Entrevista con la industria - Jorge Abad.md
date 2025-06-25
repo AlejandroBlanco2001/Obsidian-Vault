@@ -1,5 +1,9 @@
-Tags: #Agilismo #entrevistas 
-
+---
+tags:
+  - entrevistas
+  - Agilismo
+  - master
+---
  - La diferencia entre la teoría y la practica en los marcos agiles es muy notable.
  
  - Una buena referencia es comenzar por los escritores o referentes de los marcos, ellos hablan no solo desde la teoría, sino que también desde la practica:
@@ -37,7 +41,7 @@ Tags: #Agilismo #entrevistas
 		- Podemos hablar de pasar de un equipo solo a todo una serie de equipos 
 
 - Importancia de retrospectivas e historias de usuarios:
-	- Con respecto a los casos de uso e historias de usuario, el tema de los casos de usuario es que tiene muchas fricciones en algun punto  donde tenemos una definición siempre conclusa, sin embargo, las historias de usuario fluyen mas dinámicamente
+	- Con respecto a los casos de uso e historias de usuario, el tema de los casos de usuario es que tiene muchas fricciones en algún punto  donde tenemos una definición siempre conclusa, sin embargo, las historias de usuario fluyen mas dinámicamente
 		- Las historias de usuario ***deben ser estudiadas***, hay que respetarlas
 		
 	- Con respecto a las retrospectivas, es algo que se debe hacer no solo para decir como comunicarse mejor, sino que también debe enfocarse en temas de deudas técnicas, sobre el producto.

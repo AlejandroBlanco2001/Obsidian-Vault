@@ -1,6 +1,10 @@
-Tags #Agilismo #Management
-
-Actualmente el agilismo esta en su fase mas ferviente, donde todo debe ser agil y todos queremos ser agiles.
+---
+tags:
+  - Agilismo
+  - Management
+  - master
+---
+Actualmente el agilísimo esta en su fase mas ferviente, donde todo debe ser ágil y todos queremos ser agiles.
 
 Sin embargo, no todo fue asi de bonito, a sus inicios hasta mediados del 2005, el agilismo no era tomado en serio, era como una de esas charlas que se daban pero podian ser cansonas.
 
@@ -23,9 +27,11 @@ Basicamente, para hacer *buen software*, necesitas *buenas personas*, que formen
 
 Cosas como las herramientas y que procesos deben seguir, siempre sera determinado en segundo plano por ellos mismos. Los cuales buscaran una mejor manera de hacerlo segun sus necesidades.
 
-***El equipo debe escoger su destino***
+> [!IMPORTANT]
+> ***El equipo debe escoger su destino***
 
-***Si tu proceso se ve igual que hace un tiempo, no es agil***
+>[!IMPORTANT]
+>***Si tu proceso se ve igual que hace un tiempo, no es agil***
 
 Esto va en contra del enfoqe de Frederick Taylor, que postulo lo siguiente:
 
@@ -47,7 +53,7 @@ El agilismo ***necesita gente tecnica***, es necesario hablar de tecnicas de sof
 
 Esto genero, que las personas instruidas en Agilismo no fueran tecnicas, y no fueran guiadas de manera correcta. Lo que llevo al movimiento ***"Chao PMs, nos iremos los tecnicos a otro lado hablar de lo importante"***
 
-Esto ***ROMPE*** el agilismo, somos un equipo.
+> Esto ***ROMPE*** el agilismo, somos un equipo.
 
 Es bonito pensar que el software debe cambiar, y la entrega de valor es clave, sin embargo, estamos haciendo el ***software facil de cambiar?***
 
@@ -83,9 +89,7 @@ Necesitamos saber:
 - que hace el usuario
 - como lo hace 
 - para que lo hace
-
 ## Conclusion
-
 Un interesante punto de vista es como las peronas que escribieron el manifesto, no querian estar en futuras re-ediciones, porque el contexto **cambio**
 
 Debemos dejar que los nuevos manifiestos, sean con muchas mas personas variadas.

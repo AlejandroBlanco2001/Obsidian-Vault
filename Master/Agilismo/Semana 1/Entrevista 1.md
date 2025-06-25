@@ -1,14 +1,17 @@
-Tags #Agilismo 
-## Lo unico que siempre constantes es el ***cambio***
+---
+tags:
+  - Agilismo
+  - master
+---
+## Lo único que siempre constantes es el ***cambio***
 
 - Invertir años en un producto ya no es una posibilidad
 	- Deben adoptarse proyectos de manera iterativa
-	- Podemos tener retroalimentacion y valor de inmediato
-	- Valor contiuo
+	- Podemos tener retroalimentación y valor de inmediato
+	- Valor continuo
+## Como se implementaría esto?
 
-## Como se implementaria esto?
-
-- Tener una mentalidad agil
+- Tener una mentalidad ágil
 	- Plan de alto nivel, es mejor que un plan detallado 
 	- Entregar mucho valor en poco tiempo
 	- Este plan puede cambiar con el tiempo y durante el desarollo de los eventos 
@@ -19,9 +22,7 @@ Tags #Agilismo
 - CI/CD
 	- Cambios constantes y confiables
 	- Tiempo de salida a produccion debe ser el menos posible
-
 ## Retos y aprendizajes
-
 - La mentidad agil es de arriba hacia abajo, es decir, gerencia debe tenerlo primero
 	- Fases es mejor que cascada
 	- Sin eso, es imposible
@@ -33,7 +34,6 @@ Tags #Agilismo
 	- Empoderamiento
 
 ## Practicas comunes
-
 - Estructura organizacional es clave 
 - Muchas iniciativas, crean equipos separados
 	- Esto genera que se pierde la nocion de equipo
@@ -46,7 +46,6 @@ Tags #Agilismo
 	- Arquitectuars livianes como micro-servicios
 
 ## Beneficios
-
 - Tiempo de salida a produccion es rapida
 - Capacidad de responder a necesidades rapido
 - Validar ideas rapidamente

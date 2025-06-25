@@ -1,5 +1,8 @@
-Tags: #arquitectura-de-software  #diseno-uml 
-
+---
+tags:
+  - arquitectura-de-software
+  - diseno-uml
+---
 Esto ya se trabajo en un curso pasado (Arquitectura y diseño de software), en la nota de [[Punto de vista y vistas]]
 
 Recordemos que las vistas se refieren a:

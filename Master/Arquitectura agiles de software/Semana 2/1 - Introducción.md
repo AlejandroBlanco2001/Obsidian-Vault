@@ -1,5 +1,10 @@
-Tags #arquitectura-de-software #atributos-de-calidad  #disponibilidad
-
+---
+tags:
+  - arquitectura-de-software
+  - atributos-de-calidad
+  - disponibilidad
+  - master
+---
 En esta semana vamos a trabajar sobre el atributo de calidad de **Disponibilidad**, que se define como
 
 > Grado en el que un sistema es capaz de responder a las solicitudes de los usuarios cada vez que es requerido

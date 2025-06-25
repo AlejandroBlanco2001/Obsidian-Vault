@@ -1,5 +1,10 @@
-Tags #QA #PruebasAutomaticas
-
+---
+tags:
+  - QA
+  - PruebasAutomaticas
+  - Automatizacion
+  - master
+---
 Estas herramientas se encarga de ***destripar*** (Ripping) la interfaz grafica del usuario, en nuestro idioma, podemos llamarlo como ***exploracion sistemas de la GUI***
 
 La diferencia entre un Ripper y un Monkey, es que el segundo al desconocer el estado de la pagina web y lanzar eventos de manera completamente. Mientras que el Ripper si conoce el estado de la pagina y tienen ***memoria***.

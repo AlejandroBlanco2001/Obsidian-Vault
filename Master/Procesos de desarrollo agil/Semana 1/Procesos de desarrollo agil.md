@@ -1,5 +1,8 @@
-Tags: #Agilismo 
-
+---
+tags:
+  - Agilismo
+  - master
+---
 Con el paso del tiempo, la cantidad de marcos agiles adoptados por la industria ha aumentado, con la intención de crear equipos mas eficientes, rápidos y que entregan valor de maneras mas temprana.
 
 Sin embargo, los reportes indician que aun con eso, el índice de reportes fallidos con el paso de los año no ha disminuido.

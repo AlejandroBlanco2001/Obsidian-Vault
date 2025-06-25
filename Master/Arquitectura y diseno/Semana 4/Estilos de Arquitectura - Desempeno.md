@@ -1,8 +1,12 @@
-Tags #arquitectura-de-software #diseno-uml 
+---
+tags:
+  - arquitectura-de-software
+  - diseno-uml
+  - master
+---
+Un estilo de arquitectura siempre favorece un atributo de calidad y desfavorece otros.
 
-Un estilo de arquitectura siempre favore un atributo de calidad y desfavorece otros.
-
-El modelo de N-Niveles se encarga de favorecer el ***desempeno*** y la ***esacalabilidad***, teniendo en cuenta que la carga puede aumentar y el tiempo se debe conservar
+El modelo de N-Niveles se encarga de favorecer el ***desempeño*** y la ***escalabilidad***, teniendo en cuenta que la carga puede aumentar y el tiempo se debe conservar
 
 ![[Pasted image 20240831014055.png]]
 

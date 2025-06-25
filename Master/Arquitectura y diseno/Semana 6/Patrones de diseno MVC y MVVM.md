@@ -1,13 +1,17 @@
-
+---
+tags:
+  - patrones-de-diseno
+  - master
+  - arquitectura-de-software
+---
 El software siempre cambia durante su ciclo de vida;
-
-- Nuevas tecnologis
+- Nuevas tecnologias
 	- Mejoras en la infraestructura
 	- CAmbios en los lenguajes de programcaion
 	- Cambios en los sistemas de almacenamiento
-- Mejroa en los algoritmos
-	- Pago de deuda tecnica
-	- Nuevas tecnologias que permiten implementar nuevos algoritmos
+- Mejora en los algoritmos
+	- Pago de deuda técnica
+	- Nuevas tecnologías que permiten implementar nuevos algoritmos
 	- Entendimiento del problema
 - Defectos en el codigo
 	- Defectos que se incluyen en el cilo de desarrollo
@@ -18,18 +22,17 @@ El software siempre cambia durante su ciclo de vida;
 	- Cmabios en el objetivos del negocio
 
 Siempre tenemos que recordar algo al momento de hacer cambios:
-
 - Que puede cambiar?
-	- Visualizacion
-	- Logica del neogico
-	- Interaccion con el usuario
+	- Visualización
+	- Lógica del negocio
+	- Interacción con el usuario
 - Que tan probable es?
 	- Muy probable
 	- Poco probable
 	- Nada probable
 - Quien hara el cambio?
 	- Desarrolladores
-	- Disenadores
+	- Diseñadores
 	- Usuarios finales
 - Costo del cambio
 	- Horas 
@@ -39,16 +42,16 @@ Siempre tenemos que recordar algo al momento de hacer cambios:
 
 ![[Pasted image 20240915153050.png]]
 
-- Reducir el tamano de los modulos (Si)
+- Reducir el tamaño de los módulos (Si)
 - Incrementar la cohesion (Si)
 - Reducir el acoplamiento (No)
-- Diferer la seleccion tecnologica (No es clara) 
+- Diferir la selección tecnológica (No es clara) 
 
 ![[Pasted image 20240915153156.png]]
 
 ![[Pasted image 20240915153222.png]]
 
-Algunas tecnologias son:
+Algunas tecnologías son:
 - ASP.NET
 - Rails
 - Django
@@ -57,14 +60,14 @@ Algunas tecnologias son:
 
 ![[Pasted image 20240915153334.png]]
 
-- Reducir el tamano de los modulos (Si)
+- Reducir el tamaño de los módulos (Si)
 - Incrementar la cohesion (Si)
 - Reducir el acoplamiento (Si, mas que el MVC)
-- Diferer la seleccion tecnologica (No es clara)
+- Diferir la selección tecnológica (No es clara)
 
 ![[Pasted image 20240915153358.png]]
 
-Algunas tecnologias son:
+Algunas tecnologías son:
 - Angular
 - ASP.NET Core
 - Knockout

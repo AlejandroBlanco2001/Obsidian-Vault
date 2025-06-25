@@ -1,5 +1,9 @@
-#restricciones-objetivos-negocio #arquitectura-de-software
-
+---
+tags:
+  - restricciones-objetivos-negocio
+  - arquitectura-de-software
+  - master
+---
 
 >[!IMPORTANT]
 > El hecho de que podamos escribir un libro sobre arquitectura, no solo relata lo importante que es, sino la cantidad de informacion que tenemos de ella

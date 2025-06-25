@@ -1,10 +1,16 @@
+---
+tags:
+  - arquitectura-de-software
+  - master
+---
+
 # Contexto de la empresa 
 
 Empresa: ABCall
 
-Su **funcion** es Call center tercerizado para empresas
+Su **función** es Call center tercerizado para empresas
 
-Su **meta** es brindar una infraestructtura de call center a pequenas y medianas empresas
+Su **meta** es brindar una infraestructura de call center a pequeñas y medianas empresas
 
 El **proposito** que buscan es ofrecer un servicio novedoso de manejo de llamadas de entrada y salida. Lo anterior, complementado con un servicio de automatizacion de procesos, integracion agil con sistemas de informacon, servicios adicionales de machine learning y servicios basados en la web 3.0
 

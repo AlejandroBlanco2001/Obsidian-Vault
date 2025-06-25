@@ -1,4 +1,8 @@
-Tags #Agilismo 
+---
+tags:
+  - Agilismo
+  - master
+---
 ## Que es valor continuo?
 
 Se pueden manejar 3 dimensiones:

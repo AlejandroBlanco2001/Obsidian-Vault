@@ -1,6 +1,11 @@
-Tags #arquitectura-de-software #diseno-uml #estilo-arquitectonico
-#modular
-
+---
+tags:
+  - arquitectura-de-software
+  - diseno-uml
+  - estilo-arquitectonico
+  - master
+  - modular
+---
 En este caso, nuestra unidad minima es algo que llamamos ***capa***. Cada capa representa un grupo de modulos que ofrence un conjunto de servicios. 
 
 En las capas deben tener una relacion de tipo "permitido-a-usar-" de tipo unidireccional (basicamente uso de una direccion).

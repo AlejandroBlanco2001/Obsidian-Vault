@@ -1,3 +1,8 @@
-Tags #diseno-uml #Agilismo 
+---
+tags:
+  - diseno-uml
+  - Agilismo
+  - master
+---
 
 ![[Robot.png]]

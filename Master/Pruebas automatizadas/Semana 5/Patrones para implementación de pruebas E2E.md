@@ -1,5 +1,11 @@
-Tags #QA #e2e 
-
+---
+tags:
+  - QA
+  - e2e
+  - PruebasAutomaticas
+  - Automatizacion
+  - master
+---
 ## Patron Given-When-Then
 Este patron lo que busca es un paradigma para orientar nuestras pruebas, es decir, como deriamos orientras nuestros escenarios de prueba.
 

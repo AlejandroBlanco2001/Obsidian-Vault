@@ -1,5 +1,9 @@
-Tags: #pruebas-capacidad 
-
+---
+tags:
+  - pruebas-capacidad
+  - master
+  - cloud
+---
 Cuando hablamos de prueba de rendimiento, estas nos permiten estudiar el desempeño de un sistema o de una aplicación cuando ante un escenario en particular como:
 
 - Pruebas de carga

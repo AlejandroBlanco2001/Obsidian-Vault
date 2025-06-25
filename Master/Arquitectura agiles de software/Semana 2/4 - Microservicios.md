@@ -1,5 +1,11 @@
-Tags #arquitectura-de-software #disponibilidad #microservicios #estilo-arquitectonico 
-
+---
+tags:
+  - arquitectura-de-software
+  - disponibilidad
+  - microservicios
+  - estilo-arquitectonico
+  - master
+---
 > Los sistema distribuidos son una colección de **computadores independientes** que a la vista del usuario se ven como **un solo sistema** coherente
 
 Teniendo esto en cuenta, debemos recordar un sistema distribuido  es un grupo de **componentes** conectados a una red que los comunica unos a otros.
@@ -30,17 +36,11 @@ Debemos siempre tener en cuenta, que hacen dichos microservicios con respecto a 
 
 ![[Pasted image 20250128215609.png]]
 
-Si manejamos una comunicación síncrona, esto se hace a través de APIs, pero para la comunicación asíncrona usamos consultas, comandos y eventos a través de colas de mensajería.
+Si manejamos una comunicación síncrona, esto se hace a través de APIs, pero para la comunicación asíncrona usamos consultas, comandos y eventos a través de colas de mensajería. Con respecto al almacenamiento de datos, estos deben ser independientes de los demás.
 
-Con respecto al almacenamiento de datos, estos deben ser independientes de los demás.
+Lo bueno de este sistema es su **independencia**, donde cada servicio se encarga de sus propios problemas. De igual manera, su proceso de despliegue es **independiente**, y no debería provocar fallos en otros microservicios.
 
-Lo bueno de este sistema es su **independencia**, donde cada servicio se encarga de sus propios problemas.
-
-De igual manera, su proceso de despliegue es **independiente**, y no debería provocar fallos en otros microservicios.
-
-De igual, favorecen tener distintas tecnologías por servicio.
-
-El mayor reto que tenemos es el ***proceso de construcción, pruebas y puesta a producción*** es compleja (Orquestación y coreografía).
+De igual, favorecen tener distintas tecnologías por servicio. El mayor reto que tenemos es el ***proceso de construcción, pruebas y puesta a producción*** es compleja (Orquestación y coreografía).
 
 Por otro lado, a medida de que introducimos la distribución, manejar el estado de la información es algo complejo, donde tenemos consistencia eventual.
 

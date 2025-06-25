@@ -1,5 +1,12 @@
-Tags: #microservicios #arquitectura-de-software #disponibilidad #atributos-de-calidad #tacticas-arquitectura 
-
+---
+tags:
+  - microservicios
+  - arquitectura-de-software
+  - disponibilidad
+  - atributos-de-calidad
+  - tacticas-arquitectura
+  - master
+---
 El problema de la comunicación sincrónica es que al presentar una falla en la comunicación entre dos microservicios, presentábamos indisponibilidad.
 
 Sin embargo, existe una alternativa, que es la *comunicación asíncrona*, por medio de mensajes, por ejemplo.

@@ -1,12 +1,18 @@
-CPara evitar ambiguedades usaremos un lenguaje universal que todos puedan entender, en el curso, trabajaremos con ***UML*** (Unified Modeling Language), donde usaremos los siguientes diagramas: 
+---
+tags:
+  - arquitectura-de-software
+  - diseno-uml
+  - master
+---
+
+Para evitar ambigüedades usaremos un lenguaje universal que todos puedan entender, en el curso, trabajaremos con ***UML*** (Unified Modeling Language), donde usaremos los siguientes diagramas: 
 
 - Paquetes
 - Clases
 - Componentes
 - Despliegue
 
-
-| Diagrama    | Definicion                                                                  |
+| Diagrama    | Definición                                                                  |
 | ----------- | --------------------------------------------------------------------------- |
 | Paquetes    | Agrupa elementos de arquitectura y representarlos en un solo elemento       |
 | Clases      | Expresa deciones de diseno detallado                                        |

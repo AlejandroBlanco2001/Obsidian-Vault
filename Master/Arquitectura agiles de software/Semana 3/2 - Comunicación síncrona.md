@@ -1,5 +1,10 @@
-Tags: #microservicios #arquitectura-de-software #tacticas-arquitectura 
-
+---
+tags:
+  - microservicios
+  - arquitectura-de-software
+  - tacticas-arquitectura
+  - master
+---
 Al tener los microservicios totalmente aislados uno del otro nos da muchas ventajas a nivel de despliegue y manejo de cambios de cada uno, pero tenemos un gran problema, ***como se comunican?***
 
 Tenemos una opción que es la **manera síncrona**, donde cada uno de ellos se comunica directamente con el otro atreves de peticiones por medio de sus APIs.

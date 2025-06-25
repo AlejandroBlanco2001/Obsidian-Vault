@@ -1,5 +1,9 @@
-Tags: #Agilismo #Lectura 
-
+---
+tags:
+  - Agilismo
+  - Lectura
+  - master
+---
 Un Product Backlog es una lista con prioridad de funcionalidades deseadas para nuestro software. Es básicamente un eje central, donde nos ilustra y nos ayuda a entender ***que debemos construir y en que orden hacerlo***.
 
 >Esto es algo que debe ser completamente visible y transparente para todos los integrantes del equipo, podemos verlo como el ***corazón del Scrum***

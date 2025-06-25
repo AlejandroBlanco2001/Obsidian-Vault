@@ -1,5 +1,11 @@
-Tags: #arquitectura-de-software #modelos-de-ataque #seguridad #atributos-de-calidad 
-
+---
+tags:
+  - arquitectura-de-software
+  - modelos-de-ataque
+  - seguridad
+  - atributos-de-calidad
+  - master
+---
 Recordemos que la definición del atributo de calidad de seguridad es:
 
 > Medida de la habilidad de un sistema para proteger los datos y la información de accesos no autorizados, mientras que garantiza el acceso a la misma por parte de personas y sistemas autorizados para ellos.

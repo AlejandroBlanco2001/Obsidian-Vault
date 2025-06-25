@@ -1,7 +1,9 @@
-Tags #QA 
-
+---
+tags:
+  - QA
+  - master
+---
 # Proceso en cascada
-
 Se basa en al momento de terminar el proyecto realizar las pruebas, sin embargo, este es riesgoso debido a ciertos factores como lo son.
 
 - Ante retrasos del periodo de desarrollo, sea acorta el periodo de pruebas
@@ -21,19 +23,17 @@ Esto es promovido constantemente por el modelo DevOps y el modelo agil, donde el
 
 
 ## Estilos de coordinacion para pruebas
-
 - TDD (Test Driven Development)
 	- Desarrollo guiado por pruebas
 - AAT (Automated Acceptance Testing)
 	- Los requerimientos son traducidos a lenguajes de pruebas automatizadas
 - BDD (Behavioral Driven Design
-	- Los casos de la pruebas de aceptacion se describen como escenarios de uso y se vuelve documentacion ejecutable
+	- Los casos de la pruebas de aceptación se describen como escenarios de uso y se vuelve documentación ejecutable
 
 
 ![[Pasted image 20241024210238.png]]
 
 # Estrategias de pruebas 
-
 
 ![[Pasted image 20241024210315.png]]
 

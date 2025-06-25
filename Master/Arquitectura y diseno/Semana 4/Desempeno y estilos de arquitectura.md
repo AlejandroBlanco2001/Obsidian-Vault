@@ -1,8 +1,14 @@
-Tags #atributos-de-calidad #arquitectura-de-software #diseno-uml 
+---
+tags:
+  - atributos-de-calidad
+  - arquitectura-de-software
+  - diseno-uml
+  - master
+---
 
 ![[Pasted image 20240831014813.png]]
 
-El modelo de [[N-Niveles]] favorece la escalabilidad y el desempeno de nuestro sistema, debido a:
+El modelo de [[N-Niveles]] favorece la escalabilidad y el desempeño de nuestro sistema, debido a:
 
 - Unidades de software independientes y ejecutadas en paralelo
 - Posibilidad de utilizar conectorees con tiempos de respuestas baja

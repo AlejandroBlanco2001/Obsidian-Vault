@@ -1,10 +1,12 @@
-Tags #QA 
-
+---
+tags:
+  - QA
+  - master
+---
 # Niveles
-
 Granularidad del sistema a probar, es decir, que se esta probando
 
-- Uniatarios - De forma aislada (funciones del codigo)
+- Unitarios - De forma aislada (funciones del codigo)
 	- CodeShip
 	- Jenkins
 	- GitHub Actions

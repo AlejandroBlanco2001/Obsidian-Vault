@@ -1,3 +1,8 @@
+---
+tags:
+  - master
+  - Agilismo
+---
 
 | Clase      | Atributos                        | Metodos                                                                                                                                     | Preguntas                                                                                                                                                                                                                                                          |     |
 | ---------- | -------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --- |
@@ -8,11 +13,14 @@
 |            |                                  |                                                                                                                                             |                                                                                                                                                                                                                                                                    |     |
 
 
-Solo puedes borrar una persona si no tiene apuestas.
-La apuesta se modifica todo menos la carrere y mientras no este terminada
-Editar competis mientras no termina
-no elminar ocmpetis si tienen apuestas
-competis no se repiten entre carreas
-carreras ordenadas alfabeticamente
-no hay admin
-del usuario solo su nombre
+- Solo puedes borrar una persona si no tiene apuestas.
+- La apuesta se modifica todo menos la carrera y mientras no este terminada
+- Editar competiciones mientras no termina
+- No alminar competidores si tienen apuestas
+- Competiciones no se repiten entre carreas
+- Carreras ordenadas alfabéticamente
+- No hay admin 
+- Del usuario solo su nombre
+
+#master
+#Agilismo

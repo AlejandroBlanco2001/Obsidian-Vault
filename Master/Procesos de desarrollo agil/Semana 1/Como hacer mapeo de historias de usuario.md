@@ -1,5 +1,8 @@
-Tags: #Agilismo 
-
+---
+tags:
+  - Agilismo
+  - master
+---
 Es un artefacto visual de dos dimensiones:
 - Vertical (Backbone): Usuarios, Actividades o procesos, pasos o tareas para las actividades, funcionalidades para hacer los pasos
 - Horizontal: Versiones del producto

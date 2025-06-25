@@ -1,5 +1,9 @@
-#restricciones-objetivos-negocio 
-
+---
+tags:
+  - restricciones-objetivos-negocio
+  - master
+  - arquitectura-de-software
+---
 Los **objetivos** son una accion que quiere lograr el cliente, son un deseo basicamente, estos deben ser:
 
 - Acotables en el tiempo

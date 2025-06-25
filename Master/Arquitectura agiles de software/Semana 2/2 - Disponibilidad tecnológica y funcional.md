@@ -1,13 +1,18 @@
-Tags: #disponibilidad #arquitectura-de-software #atributos-de-calidad 
-
-Como describimos [[Master/Arquitectura agiles de software/Semana 2/1 - Introduccion]] sobre la disponibilidad, hablamos en todo sentido de la misma, es decir, disponibilidad de:
+---
+tags:
+  - disponibilidad
+  - arquitectura-de-software
+  - atributos-de-calidad
+  - master
+---
+Como describimos [[1 - Introducción]] sobre la disponibilidad, hablamos en todo sentido de la misma, es decir, disponibilidad de:
 
 - Hardware (Discos duros, fuentes de poder)
 - Software (Componentes)
 
 Para calcular la posible disponibilidad de nuestro sistema, usamos:
 
-$$ Disponibilida = \frac{MTBF}{MTBF + MTTB}$$
+$$ Disponibilidad = \frac{MTBF}{MTBF + MTTB}$$
 Donde 
 
 - MBTB = Tiempo medio entre fallas 

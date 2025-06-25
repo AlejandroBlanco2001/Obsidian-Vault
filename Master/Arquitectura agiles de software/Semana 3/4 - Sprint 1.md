@@ -1,5 +1,9 @@
-Tags #arquitectura-de-software #disponibilidad 
-
+---
+tags:
+  - arquitectura-de-software
+  - disponibilidad
+  - master
+---
 Cada sprint esta definido por una serie de pasos:
 
 1. Selección de las historias de arquitectura

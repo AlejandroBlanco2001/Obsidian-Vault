@@ -1,12 +1,15 @@
-Tag #QA 
-
+---
+tags:
+  - QA
+  - master
+---
 - Siempre debes tener un balance entre las pruebas automatizadas y las pruebas manuales, no podemos tener un esfuerzo completamante manual o ni una aplicacion comletamanete automatizada.
 
 - En este caso, siempre tenemos que pensar en una relacion costo-esfuerzo
 
 - Una buena de medir cuando necesitamos pruebas manuales es:
-	- Existe un nivel de incertidumbre sobre la factibilidad de automatizacion
-	- Reducen tiempos en pruebas con amplios tiempos de ejecuccion
+	- Existe un nivel de incertidumbre sobre la factibilidad de automatización
+	- Reducen tiempos en pruebas con amplios tiempos de ejecución
 
 - Muchos de los problemas de las pruebas manuales son:
 	- Su realizacion excede el tiempo estimado, causando problems de retraso en la entrega del producto

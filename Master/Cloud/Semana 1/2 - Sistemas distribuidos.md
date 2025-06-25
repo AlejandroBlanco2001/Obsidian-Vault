@@ -1,5 +1,9 @@
-Tags: #cloud  #sistemas-distribuidos
-
+---
+tags:
+  - cloud
+  - sistemas-distribuidos
+  - master
+---
 La computación en la nube se puede considerar como uno de los mas grandes avances tecnológicos de los tiempos recientes, ocasionando grandes cambios en como se desarrolla software, haremos un recorrido por lo que representan estos desde sus inicios hasta hoy en dia.
 
 # Primera Ola

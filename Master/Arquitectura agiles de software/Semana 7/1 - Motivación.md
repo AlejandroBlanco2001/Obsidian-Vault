@@ -1,5 +1,11 @@
-Tags #arquitectura-de-software #seguridad #atributos-de-calidad #tacticas-arquitectura 
-
+---
+tags:
+  - arquitectura-de-software
+  - seguridad
+  - atributos-de-calidad
+  - tacticas-arquitectura
+  - master
+---
 En este modulo la idea es desarrollar ***tácticas de arquitectura orientadas en seguridad***
 
 - Detección de ataques

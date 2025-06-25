@@ -1,15 +1,18 @@
-Tags #QA 
-
-Siempre necesitamos tener un balance entre las pruebas manuales y automaticas, ademas debemos tener en cuenta nuestros recursos como:
+---
+tags:
+  - QA
+  - master
+---
+Siempre necesitamos tener un balance entre las pruebas manuales y automáticas, además debemos tener en cuenta nuestros recursos como:
 
 - Horas por persona disponibles para hacer QA
-- Horas de infraestructura para la ejecuccion de pruebas
-- Recursos monerios para adquirir servicios externos 
+- Horas de infraestructura para la ejecución de pruebas
+- Recursos monetarios para adquirir servicios externos 
 
 >[!NOTE]
 >Antes de hacer pruebas automaticas, debemos saber hacer pruebas manuales
 
-Recordemos que estos procesos manuales se hacen en un escenario de ***Ambiente de pruebas*** que deben ser muy parecidos al escenario de produccion
+Recordemos que estos procesos manuales se hacen en un escenario de ***Ambiente de pruebas*** que deben ser muy parecidos al escenario de producción
 
 >[!IMPORTANT]
 >Tambien existe el caso de que se pruebe en produccion, debido al coste que conllevaba hacer un escenario de prueba (esfuerzo/monetario), de igual manera existen casos donde es mas probable que pase en produccion que un ambiente, como el caso de ***Netflix con las pruebas de caos o ingenieria de caos***

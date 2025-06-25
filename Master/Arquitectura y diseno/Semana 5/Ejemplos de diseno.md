@@ -1,5 +1,10 @@
-Tags #diseno-uml #patrones-de-diseno #arquitectura-de-software 
-
+---
+tags:
+  - diseno-uml
+  - patrones-de-diseno
+  - arquitectura-de-software
+  - master
+---
 1. Definimos el escenario de calidad y los atributos de calidad
 
 ![[Pasted image 20240908153102.png]]
@@ -8,7 +13,7 @@ Tags #diseno-uml #patrones-de-diseno #arquitectura-de-software
 
 ![[Pasted image 20240908153152.png]]![[Pasted image 20240908153203.png]]
 
-3. Seleccion de tacticas de arquitectura
+3. Selección de tácticas de arquitectura
 
 ![[Pasted image 20240908153220.png]]
 

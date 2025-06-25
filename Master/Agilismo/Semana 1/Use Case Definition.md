@@ -1,4 +1,8 @@
-Tags #Agilismo 
+---
+tags:
+  - Agilismo
+  - master
+---
 
 >Todas las maneras de usar un sistema deben lograr un logro paritcular para un usuario particular
 

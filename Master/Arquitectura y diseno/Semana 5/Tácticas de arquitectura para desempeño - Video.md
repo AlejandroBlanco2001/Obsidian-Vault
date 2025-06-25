@@ -1,9 +1,12 @@
-Tag #arquitectura-de-software 
-
-Las tacticas son decisiones ***particulares*** y ***especificas*** para favorecer un atributo de calidad, modificando el estilo de arquitectura.
+---
+tags:
+  - arquitectura-de-software
+  - master
+  - tacticas-arquitectura
+---
+Las tácticas son decisiones ***particulares*** y ***especificas*** para favorecer un atributo de calidad, modificando el estilo de arquitectura.
 
 En este curso buscaremos estudiar las tacticas que favorecen la esacalibidad y la latencia de la manera:
-
 - Control de acceso a recursos
 	- Priorizacion de eventos
 	- Incrementar la latencia de los recursos

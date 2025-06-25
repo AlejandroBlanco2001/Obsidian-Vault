@@ -1,8 +1,12 @@
-Tags #QA 
+---
+tags:
+  - QA
+  - master
+---
 
 ![[Pasted image 20241009225114.png]]
 
-La realizacion de un reporte de incidencias es algo que usamos para describir nuestros problema y su entorno de ejecuccion, aunque no hay forma definitiva de realizarlo, esta es la manera en la cual lo haremos en la maestria:
+La realización de un reporte de incidencias es algo que usamos para describir nuestros problema y su entorno de ejecución, aunque no hay forma definitiva de realizarlo, esta es la manera en la cual lo haremos en la maestría:
 
 - **Titulo**: El objetivo del título es dar una explicación bastante corta y puntual del defecto a reportar.
 

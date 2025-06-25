@@ -1,5 +1,9 @@
-Tags #mobile #UI/UX 
-
+---
+tags:
+  - master
+  - UI/UX
+  - mobile
+---
 > Se refiere al conjunto de elementos, principios, guías, patrones y estilos que se articulan para alcanzar los objetivos de un producto digital desde la interfaz grafica
 
 Contamos con dos sistemas bases

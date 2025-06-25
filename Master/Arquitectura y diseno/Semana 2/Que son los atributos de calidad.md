@@ -1,5 +1,9 @@
-#atributos-de-calidad 
-
+---
+tags:
+  - atributos-de-calidad
+  - master
+  - arquitectura-de-software
+---
 Para definir estos atributos de calidad podemos trabajar, bajo varias enfoques, podemos hacer un juicio de expertos o trabajar bajo una normativa (como lo es el caso de ISO-9126 o ISO-25010).
 
 1. Funcionalidad

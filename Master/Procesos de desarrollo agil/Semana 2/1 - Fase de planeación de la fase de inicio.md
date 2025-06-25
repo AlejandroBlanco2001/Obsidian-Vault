@@ -1,5 +1,8 @@
-Tags #Agilismo 
-
+---
+tags:
+  - Agilismo
+  - master
+---
 Para comenzar con esta fase, tenemos que contar previamente con nuestro backlog definido (historias definidas y priorizadas)
 ## Como se genera la cantidad de sprints
 Debemos usar alguna métrica para estimación como los ***puntos de historias de usuario***.

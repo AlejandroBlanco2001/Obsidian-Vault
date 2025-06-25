@@ -1,5 +1,8 @@
-Tags #mobile
-
+---
+tags:
+  - master
+  - mobile
+---
 Los dispositivos móviles ahora estan muy proliferados, y por ende, hay un alto impulso para la creación de aplicaciones móviles, sin embargo, para el éxito de las mismas se necesitan muchos factores que no son tan fáciles de obtener:
 
 - Contexto altamente dinámico y competitivo

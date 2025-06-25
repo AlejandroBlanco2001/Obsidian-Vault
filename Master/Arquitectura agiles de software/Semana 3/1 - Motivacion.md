@@ -1,5 +1,12 @@
-Tags: #microservicios #arquitectura-de-software #disponibilidad #atributos-de-calidad #tacticas-arquitectura 
-
+---
+tags:
+  - microservicios
+  - arquitectura-de-software
+  - disponibilidad
+  - atributos-de-calidad
+  - tacticas-arquitectura
+  - master
+---
 En esta semana, nos vamos a enfocar en tácticas de arquitectura que favorezcan la ***disponibilidad*** en nuestro ***estilo de microservicios*** de manera sincrónica, algunos temas serán:
 
 - Principio de Separación de responsabilidad entre Comandos y Consultas

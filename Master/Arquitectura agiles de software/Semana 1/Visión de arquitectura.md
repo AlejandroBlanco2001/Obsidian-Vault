@@ -1,5 +1,8 @@
-Tags: #arquitectura-de-software #diseno-uml 
-
+---
+tags:
+  - arquitectura-de-software
+  - diseno-uml
+---
 Este paso se inicia una vez tengamos el Backlog de Arquitectura terminado o al menos definido, sin embargo, antes de arrancar de lleno con el tema, empezamos desarrollando nuestra ***Visión de Arquitectura***
 
 Esto proceso (o paso) también es llamado *Sprint 0*, donde los objetivos son:

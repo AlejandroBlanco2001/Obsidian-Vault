@@ -1,5 +1,8 @@
-Tags: #Agilismo 
-
+---
+tags:
+  - Agilismo
+  - master
+---
 Preparar todo lo necesario para iniciar nuestro proyecto, esta fase puede durar desde días, semanas o hasta un mes, todo dependiendo del contexto.
 # Objetivos
 

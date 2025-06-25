@@ -1,3 +1,11 @@
+---
+tags:
+  - tacticas-arquitectura
+  - arquitectura-de-software
+  - master
+  - modificacion
+---
+
 Contamos con el patron de MVC, por sus siglas en ingles, Model-View-Controller, y tenemos el MVVM, por sus siglas en ingles, Model-View-ViewModel.
 
 # MVC

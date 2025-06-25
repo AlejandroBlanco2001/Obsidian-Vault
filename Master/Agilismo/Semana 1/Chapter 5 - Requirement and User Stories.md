@@ -1,4 +1,9 @@
-Tags #historias-de-usuario #Agilismo 
+---
+tags:
+  - historias-de-usuario
+  - Agilismo
+  - master
+---
 ### 1. **Importancia de las Historias de Usuario**
 
 - Las historias de usuario son fundamentales en Scrum, ya que representan los requerimientos desde la perspectiva del usuario final.

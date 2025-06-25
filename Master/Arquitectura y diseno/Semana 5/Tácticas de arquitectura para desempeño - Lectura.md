@@ -1,13 +1,18 @@
-Tags #ToDo 
-
-El desempeño es hablar sobre tiempo de respuesta, es nuesta capacidad de responder ***requisitios de tiempo***. Como algo curioso, recordemos que toda operacion toma tiempo en un computador.
+---
+tags:
+  - performance
+  - master
+  - arquitectura-de-software
+  - tacticas-arquitectura
+---
+El desempeño es hablar sobre tiempo de respuesta, es nuestra capacidad de responder ***requisitos de tiempo***. Como algo curioso, recordemos que toda operación toma tiempo en un computador.
 
 >[!NOTE]
 >Los computadores miden en nanosegundos la respuesta, el acceso al disco toma tiempo en el orden de milisegundos y el acceso por red toke alrededor de 100 milisegundos para mensajeria intercontinental.
 
-Para poder responder sobre los eventos que ocurren en nuestro sistema (iinterrupciones, mensajes, mensajes entre usuarios), debemos entender y caracterizar los eventos que puedan ocurrir en nuestro sistema (Cuando y como pasan) y los elementos asociados a nuestro sistema que responden.
+Para poder responder sobre los eventos que ocurren en nuestro sistema (ininterrupciones, mensajes, mensajes entre usuarios), debemos entender y caracterizar los eventos que puedan ocurrir en nuestro sistema (Cuando y como pasan) y los elementos asociados a nuestro sistema que responden.
 
-Para una aplicacion basada en la web los eventos vienen en forma de peticiones por el usuario (se cuentan por decenas o decenas de millones) por medio de clientes como el navegador web. Los servicios obtienen eventos por medio de otros servicios. En un sistema de control para la combustion interna de un motor, los eventos vienen del operador que maneje el operador.
+Para una aplicación basada en la web los eventos vienen en forma de peticiones por el usuario (se cuentan por decenas o decenas de millones) por medio de clientes como el navegador web. Los servicios obtienen eventos por medio de otros servicios. En un sistema de control para la combustion interna de un motor, los eventos vienen del operador que maneje el operador.
 
 En un sistema basado en la web, una base de datos central, o en un sistema que se encarga de procesar entradas desde el entorno, la respuesta deseada puede ser expresada como la cantidad de respuestas procesadas en un tiempo particular. En el sistema de control, la respuesta podría ser la variación admisible del tiempo de combustion.
 
@@ -19,12 +24,10 @@ Recordemos que el desempeño es un atributo de calidad ***siempre deseado***, si
 Podemos afirmar que un gran amigo es la ***escalabilidad***
 
 ## Escenario general
-
-Este comienza con un evento llegand a nuestro sistema. Contestar de manera correcta al evento requiere ***recursos*** (incluye el tiempo) que sean consumidos. Mientras esto sucede, el sistema puede ser estar contestando otros eventos
+Este comienza con un evento llegando a nuestro sistema. Contestar de manera correcta al evento requiere ***recursos*** (incluye el tiempo) que sean consumidos. Mientras esto sucede, el sistema puede ser estar contestando otros eventos
 
 ### Concurrencia
-
-Es el concepto mas importante que un arquitecto debe entender (increiblemente es uno de los menos tratados tambien en los cursos de CS). Concurrencia es operaciones ocurriendo de forma paralela. Por ejemplo, imaginemos que un hilo ejecuta
+Es el concepto mas importante que un arquitecto debe entender (increíblemente es uno de los menos tratados también en los cursos de CS). Concurrencia es operaciones ocurriendo de forma paralela. Por ejemplo, imaginemos que un hilo ejecuta
 
 ```javascript
 let x = 1;
@@ -32,23 +35,21 @@ let x = 1;
 x==;
 ```
 
-Y otro hilo ejecuta los mismas sentencias. Cual deberia ser el valor de x despues de que ambos hilos ejecutaran ambos sentencias?
+Y otro hilo ejecuta los mismas sentencias. Cual debería ser el valor de x después de que ambos hilos ejecutaran ambos sentencias?
 
-La concurrencia ocurre cuando en cualquier momento tu sistema crea un nuevo hilo, porque los hilos por definicion, son secuencias independientes de control. Cuando tienes multiples usuarios en tu sistema, los hilos hacen parte de ese trabajo.
+La concurrencia ocurre cuando en cualquier momento tu sistema crea un nuevo hilo, porque los hilos por definición, son secuencias independientes de control. Cuando tienes multiples usuarios en tu sistema, los hilos hacen parte de ese trabajo.
 
-La concurrencia ayuda mucho a resolver temas de desempeño, sin embargo, siempre hay que estar conscientes, de que pueden succeder ***race conditions***, basicamente donde dos o mas hilos tratan de acceder a un mismo recurso.
+La concurrencia ayuda mucho a resolver temas de desempeño, sin embargo, siempre hay que estar conscientes, de que pueden suceder ***race conditions***, básicamente donde dos o mas hilos tratan de acceder a un mismo recurso.
 
-Dos posibles soluciones podrian ser:
-
+Dos posibles soluciones podrían ser:
 - Bloquear un recurso una vez accedido
-- Crear dos recursos, basicamente uno por hilo
+- Crear dos recursos, básicamente uno por hilo
 
 Los errores asociados a estos temas pueden ser un dolor de cabeza, debido a que requieren una coordinacion milimetrica para ser repetidos. 
 
-Por esto mismo, no debe darte miedo utilizar la concurrencia, simplemente usala bien y sabiendo que puede y que no puede pasar 
+Por esto mismo, no debe darte miedo utilizar la concurrencia, simplemente úsala bien y sabiendo que puede y que no puede pasar 
 
 ## Escenarios 
-
 
 | Parte del escenario    | Descripcion                                                                   | Posibles valores                                                                                                                                                                                                                 |
 | ---------------------- | ----------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |

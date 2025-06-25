@@ -1,5 +1,8 @@
-Tags #mobile
-
+---
+tags:
+  - master
+  - mobile
+---
 Actualmente los móviles forman una parte muy importante de nuestra vida, donde tenemos dispositivos de tipo:
 - Android
 - iOS

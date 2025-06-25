@@ -1,6 +1,10 @@
-#atributos-de-calidad 
-
-Un mecanismo para la especificacion de requisitios de calidad son los ***escenarios de calidad***  que propone Bass
+---
+tags:
+  - atributos-de-calidad
+  - Agilismo
+  - master
+---
+Un mecanismo para la especificación de requisitos de calidad son los ***escenarios de calidad***  que propone Bass
 
 - Identificar momentos claves\
 - Como deseamos verlos 
