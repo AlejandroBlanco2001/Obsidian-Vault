@@ -1,6 +1,10 @@
-Tags #databases #query
-
-- El modelo de datos limita nuestro entendimiento y visualización de un problema
+---
+tags:
+  - databases
+  - query
+---
+>[!IMPORTANT]
+El modelo de datos limita nuestro entendimiento y visualización de un problema
 
 Una de las mayores cuestiones es preguntar inmediatamente como lo represento la capa de abajo?
 

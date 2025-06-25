@@ -1,8 +1,11 @@
-Keywords: #databases #nosql 
-Topic: [[Databases]]
-
-
-In this topic, the discussion is around the whole NoSQL ecosystem, taking into account the types and use cases.
+---
+tags:
+  - databases
+  - nosql
+  - OpenSourceArch
+---
+In this topic, the discussion is around the whole NoSQL ecosystem, taking into account the types 
+and use cases.
 # Context
 
 The NoSQL from a query interface that is no SQL if we read it just once and without much context. But, if you explore the whole environment you can find that is more ***Not Only SQL***, this propose a new way of thinking, you can **replace** or **mix**  your current SQL database. 

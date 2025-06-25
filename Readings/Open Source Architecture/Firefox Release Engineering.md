@@ -1,6 +1,9 @@
-Topics: #release #process
-Link: [here]() 
-
+---
+tags:
+  - release
+  - process
+  - OpenSourceArch
+---
 Mozilla had troubles with process in a very manual way, in this order of ideas, they had a major issue regarding human errors in multiple possible scenarios, for example, what if during a sanity check the QA forget to test something? What make one release per platform?
 
 For this reason, they decide to automate as much as possible, document everything, communicate everything and keep everyone on the same page.

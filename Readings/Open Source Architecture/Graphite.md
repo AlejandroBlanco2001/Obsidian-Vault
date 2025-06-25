@@ -1,5 +1,10 @@
-Tags #design #performance #cache
-
+---
+tags:
+  - design
+  - performance
+  - cache
+  - OpenSourceArch
+---
 ## What is?
 
 Graphite's database library, called whisper, stores time-series numeric data in a format similar to RRDtool. It consists of a header followed by archives of (timestamp, value) pairs. Whisper allows the creation, updating, and fetching of data points within these files. It is used internally by Graphite but can also be used as a standalone library.

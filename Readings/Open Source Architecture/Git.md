@@ -1,11 +1,15 @@
-Keywords: #bash #git #design
-Lecture link: here
+---
+tags:
+  - bash
+  - git
+  - diseno-uml
+  - CI/CD
+  - OpenSourceArch
+---
 ## What is Git?
-
 Git enables the maintenance of a digital body of work (often, but not limited to, code) by many collaborators using a peer-to-peer network of repositories. It supports distributed workflows, allowing a body of work to either eventually converge or temporarily diverge.
 
 ## Origin
-
 Linux Kernel community is the one responsible for this awesome project, if you understand their context, you easily understand why Git is the way it is.
 
 The Linux Kernel is a massive project, with a lot of contributors working at the same time, in that particular time, they were unable to find a VCS (Version Control System) to handle that v0lume.
@@ -31,7 +35,6 @@ Distributed version control systems offer great workflow flexibility, often at t
 - Allowing the managed work to be published to multiple repositories, potentially with different branches or granularity of changes visible.
 
 ## How to design my own VCS
-
 We must ensure at least always 3 things:
 
 - Storing content
@@ -39,17 +42,15 @@ We must ensure at least always 3 things:
 - Distributing the content and history with collaborators
 
 ### Content Storage
-
 We can use two of the most common approaches, such as DAGs or delta-based changeset.
 
 Delta-based changesets encapsulate the differences between two versions of the flattened content, plus some metadata.
 
 Representing content as a directed acyclic graph involves objects forming a hierarchy which mirrors the content's filesystem tree as a snapshot of the commit (reusing the unchanged objects inside the tree where possible).
 
- Git stores content as a directed acyclic graph using different types of objects.
+Git stores content as a directed acyclic graph using different types of objects.
 
 ### Commit and Merge Histories
-
 On the history and change-tracking front most VCS software uses one of the following approaches:
 
 - Linear history

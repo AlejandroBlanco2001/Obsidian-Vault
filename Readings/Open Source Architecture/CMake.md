@@ -1,8 +1,12 @@
-Keywords: #OOP #C #design 
-Lecture available: [here](https://aosabook.org/en/v1/cmake.html)
-
+---
+tags:
+  - OOP
+  - C
+  - diseno-uml
+  - OpenSourceArch
+LInk: https://aosabook.org/en/v1/cmake.html
+---
 ## Before CMake
-
 - When a desktop app was developed we need to generate two things:
 	- Makefiles* for Unix
 	- Visual Studio for Windows

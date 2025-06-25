@@ -1,5 +1,12 @@
-Keywords: #CI #process #Infra #DevOps
-
+---
+tags:
+  - CI
+  - process
+  - Infra
+  - DevOps
+  - CI/CD
+  - OpenSourceArch
+---
 This are systems that **build** and **test** software ***automatically and regularly***
 
 They also can be used for other tedious tasks, not just test and build, many of the uses are:

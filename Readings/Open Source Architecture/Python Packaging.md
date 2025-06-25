@@ -1,6 +1,11 @@
-Keywords: #python #packaging #os
-Lecture link: [here](https://aosabook.org/en/v1/packaging.html)
-
+---
+tags:
+  - python
+  - packaging
+  - os
+  - OpenSourceArch
+LInk: https://aosabook.org/en/v1/packaging.html
+---
 In terms of installing the applications, there is two main approaches: 
 1. Microsoft and Mac OS X
 	- All the app must be self-contained, all the libraries should be in the app distribution

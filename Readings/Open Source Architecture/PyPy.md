@@ -1,5 +1,10 @@
-Tags #python #compilers #design 
-
+---
+tags:
+  - python
+  - compilers
+  - diseno-uml
+  - OpenSourceArch
+---
 ## Context and history
 
 > Python is a high-level, dynamic programming language
