@@ -1,1 +1,6 @@
-Tags: #To-Do
+---
+tags:
+  - diseno-uml
+  - arquitectura-de-software
+ToDo: true
+---
