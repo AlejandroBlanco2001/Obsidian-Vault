@@ -1,0 +1,212 @@
+{
+  "main": {
+    "id": "472ed118eb089d58",
+    "type": "split",
+    "children": [
+      {
+        "id": "947f30dc5e37b725",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4a453cbbff1c6045",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Readings/Diseno de aplicaciones mediante el uso intensivo de datos/Capitulo 1 - Fundamentos de los sistemas de datos.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Capitulo 1 - Fundamentos de los sistemas de datos"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d4983adba757cb78",
+    "type": "split",
+    "children": [
+      {
+        "id": "6a99ca8bc3e5e890",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bcf776311ad169fc",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "b7c4f4954054f87d",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#Agilismo",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "9dc96fcb48c61bc9",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "f0d77f2b27ad529a",
+    "type": "split",
+    "children": [
+      {
+        "id": "dd21753abda80ed1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5b05db2cb32917c2",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Excalidraw/k8sArch.excalidraw.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for k8sArch.excalidraw"
+            }
+          },
+          {
+            "id": "aa9725811cf164e5",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Excalidraw/k8sArch.excalidraw.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from k8sArch.excalidraw"
+            }
+          },
+          {
+            "id": "235ede394422904d",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "5ce22be5587f8033",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Excalidraw/k8sArch.excalidraw.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of k8sArch.excalidraw"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "markdown-importer:Open format converter": false,
+      "obsidian-excalidraw-plugin:New drawing": false
+    }
+  },
+  "active": "4a453cbbff1c6045",
+  "lastOpenFiles": [
+    "Readings/Diseno de aplicaciones mediante el uso intensivo de datos/Capitulo 2 - Modelos de datos y lenguajes de consulta.md",
+    "Testing/Chaos Testing.md",
+    "Readings/Diseno de aplicaciones mediante el uso intensivo de datos/Capitulo 1 - Fundamentos de los sistemas de datos.md",
+    "Testing/Untitled",
+    "Readings/Open Source Architecture/CMake.md",
+    "Readings/Open Source Architecture/Continuous Integration.md",
+    "Readings/Open Source Architecture/Firefox Release Engineering.md",
+    "Readings/Open Source Architecture/Git.md",
+    "Readings/Open Source Architecture/Graphite.md",
+    "Readings/Open Source Architecture/Processing.js.md",
+    "Readings/Open Source Architecture/PyPy.md",
+    "Readings/Open Source Architecture/Python Packaging.md",
+    "Readings/Open Source Architecture/The NoSQL Ecosystem.md",
+    "Computer Science/Turing-complete language.md",
+    "Computer Science/Databases/Query Optimizer.md",
+    "Computer Science/Compilers/Abstract Syntax Tree.md",
+    "Design Paterns/Structural Pattern.md",
+    "Design Paterns/Creational patterns.md",
+    "Design Paterns/Behavioral Patterns.md",
+    "Design Paterns/Creational Patterns/Singleton Pattern.md",
+    "Design Paterns/Architectures/Hexagonal.md",
+    "Master/Arquitecturas moviles/Semana 1/0 - Clase presencial.md",
+    "Software/Presentations/Why Can't We Make Simple Software - Peter van Hardenberg.md",
+    "Soft Skills/Patterns of Effective Teams.md",
+    "Soft Skills/Strong-Style Pairing.md",
+    "Software/Presentations",
+    "Software",
+    "Readings/The DevOps Handbook/The DevOps Handbook.md",
+    "Management",
+    "Readings/The DevOps Handbook",
+    "Readings/Untitled.canvas",
+    "DevOps/General",
+    "DevOps",
+    "Testing/ATDD.md",
+    "Design Paterns/Creational Patterns",
+    "PNGs/Pasted image 20240623222947.png"
+  ]
+}
