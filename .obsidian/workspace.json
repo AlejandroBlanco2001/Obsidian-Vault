@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "947f30dc5e37b725",
+        "id": "d2065a8c418752d5",
         "type": "tabs",
         "children": [
           {
-            "id": "4a453cbbff1c6045",
+            "id": "82333f960a3be76d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Readings/Diseno de aplicaciones mediante el uso intensivo de datos/Capitulo 1 - Fundamentos de los sistemas de datos.md",
+                "file": "Readings/Diseno de aplicaciones mediante el uso intensivo de datos/Capitulo 2 - Modelos de datos y lenguajes de consulta.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Capitulo 1 - Fundamentos de los sistemas de datos"
+              "title": "Capitulo 2 - Modelos de datos y lenguajes de consulta"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Agilismo",
+                "query": "modelo  por capas",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -170,11 +170,13 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "4a453cbbff1c6045",
+  "active": "82333f960a3be76d",
   "lastOpenFiles": [
+    "Readings/Diseno de aplicaciones mediante el uso intensivo de datos/Capitulo 1 - Fundamentos de los sistemas de datos.md",
+    "Master/Arquitectura y diseno/Semana 4/Documenting Software Architecture/Layered Style.md",
+    "Master/Arquitectura y diseno/Semana 6/Estilos de arquitectura para facilidad de modificación.md",
     "Readings/Diseno de aplicaciones mediante el uso intensivo de datos/Capitulo 2 - Modelos de datos y lenguajes de consulta.md",
     "Testing/Chaos Testing.md",
-    "Readings/Diseno de aplicaciones mediante el uso intensivo de datos/Capitulo 1 - Fundamentos de los sistemas de datos.md",
     "Testing/Untitled",
     "Readings/Open Source Architecture/CMake.md",
     "Readings/Open Source Architecture/Continuous Integration.md",
@@ -199,13 +201,11 @@
     "Soft Skills/Strong-Style Pairing.md",
     "Software/Presentations",
     "Software",
-    "Readings/The DevOps Handbook/The DevOps Handbook.md",
     "Management",
     "Readings/The DevOps Handbook",
     "Readings/Untitled.canvas",
     "DevOps/General",
     "DevOps",
-    "Testing/ATDD.md",
     "Design Paterns/Creational Patterns",
     "PNGs/Pasted image 20240623222947.png"
   ]

@@ -6,7 +6,7 @@ tags:
   - modificacion
   - master
 ---
-La facilidad de modificacion es el atributo que indica que tan facil es modificar nuestro software, hardware o infraestructura.
+La facilidad de modificación es el atributo que indica que tan fácil es modificar nuestro software, hardware o infraestructura.
 
 Los remplazos pueden ser parciales o totales, y puede nacer de:
 - Errores que nacen
