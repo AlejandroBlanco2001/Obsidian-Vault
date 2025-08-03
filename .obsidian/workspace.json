@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Readings/Diseno de aplicaciones mediante el uso intensivo de datos/Capitulo 2 - Modelos de datos y lenguajes de consulta.md",
+                "file": "Master/Tercer Semestre/Nativo en nube/Semana 1/1 - Conceptos.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Capitulo 2 - Modelos de datos y lenguajes de consulta"
+              "title": "1 - Conceptos"
             }
           }
         ]
@@ -172,10 +172,27 @@
   },
   "active": "82333f960a3be76d",
   "lastOpenFiles": [
-    "Readings/Diseno de aplicaciones mediante el uso intensivo de datos/Capitulo 1 - Fundamentos de los sistemas de datos.md",
-    "Master/Arquitectura y diseno/Semana 4/Documenting Software Architecture/Layered Style.md",
-    "Master/Arquitectura y diseno/Semana 6/Estilos de arquitectura para facilidad de modificación.md",
+    "Readings/Documentation as Code/What is Docs as Code, Your Guide to Modern Technical Documentation.md",
+    "Readings/Documentation as Code/Five fast facts about docs as code at GitLab.md",
+    "Readings/Documentation as Code/Write the Docs - DaC.md",
+    "Readings/Documentation as Code.md",
+    "Readings/Documentation as Code",
+    "PNGs/Pasted image 20250803175158.png",
+    "Master/Tercer Semestre/Nativo en nube/Semana 1/1 - Conceptos.md",
+    "Master/Tercer Semestre/Nativo en nube/Semana 1/0 - Introduccion.md",
+    "Master/Segundo Semestre/Arquitecturas moviles/Semana 1/0 - Clase presencial.md",
+    "Master/Primer Semestre/Agilismo/Semana 5/Patterns for Managing Source Code Branches.md",
+    "Master/Tercer Semestre/Nativo en nube/Semana 1",
+    "Master/Tercer Semestre/UI-UX",
+    "Master/Tercer Semestre/Nativo en nube",
+    "Master/Primer Semestre",
+    "Master/Segundo Semestre",
+    "Master/Tercer Semestre",
+    "Master/Primer Semestre/Agilismo/Semana 7/Lectura complementaria - Pipelines.md",
     "Readings/Diseno de aplicaciones mediante el uso intensivo de datos/Capitulo 2 - Modelos de datos y lenguajes de consulta.md",
+    "Readings/Diseno de aplicaciones mediante el uso intensivo de datos/Capitulo 1 - Fundamentos de los sistemas de datos.md",
+    "Master/Primer Semestre/Arquitectura y diseno/Semana 4/Documenting Software Architecture/Layered Style.md",
+    "Master/Primer Semestre/Arquitectura y diseno/Semana 6/Estilos de arquitectura para facilidad de modificación.md",
     "Testing/Chaos Testing.md",
     "Testing/Untitled",
     "Readings/Open Source Architecture/CMake.md",
@@ -190,23 +207,9 @@
     "Computer Science/Turing-complete language.md",
     "Computer Science/Databases/Query Optimizer.md",
     "Computer Science/Compilers/Abstract Syntax Tree.md",
-    "Design Paterns/Structural Pattern.md",
-    "Design Paterns/Creational patterns.md",
-    "Design Paterns/Behavioral Patterns.md",
-    "Design Paterns/Creational Patterns/Singleton Pattern.md",
-    "Design Paterns/Architectures/Hexagonal.md",
-    "Master/Arquitecturas moviles/Semana 1/0 - Clase presencial.md",
-    "Software/Presentations/Why Can't We Make Simple Software - Peter van Hardenberg.md",
-    "Soft Skills/Patterns of Effective Teams.md",
-    "Soft Skills/Strong-Style Pairing.md",
     "Software/Presentations",
     "Software",
-    "Management",
-    "Readings/The DevOps Handbook",
     "Readings/Untitled.canvas",
-    "DevOps/General",
-    "DevOps",
-    "Design Paterns/Creational Patterns",
     "PNGs/Pasted image 20240623222947.png"
   ]
 }
