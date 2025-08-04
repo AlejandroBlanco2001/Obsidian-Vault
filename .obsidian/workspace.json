@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Master/Tercer Semestre/Nativo en nube/Semana 1/1 - Conceptos.md",
+                "file": "Software/Interviews/Amazon VP On Promotions, Getting Fired Twice, Working With Bezos - Ethan Evans.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1 - Conceptos"
+              "title": "Amazon VP On Promotions, Getting Fired Twice, Working With Bezos - Ethan Evans"
             }
           }
         ]
@@ -172,13 +172,18 @@
   },
   "active": "82333f960a3be76d",
   "lastOpenFiles": [
+    "Soft Skills/Strong-Style Pairing.md",
+    "Soft Skills/Patterns of Effective Teams.md",
+    "Software/Interviews/Amazon VP On Promotions, Getting Fired Twice, Working With Bezos - Ethan Evans.md",
+    "Software/Presentations/Why Can't We Make Simple Software - Peter van Hardenberg.md",
+    "Master/Tercer Semestre/Nativo en nube/Semana 1/1 - Conceptos.md",
+    "Software/Interviews",
     "Readings/Documentation as Code/What is Docs as Code, Your Guide to Modern Technical Documentation.md",
     "Readings/Documentation as Code/Five fast facts about docs as code at GitLab.md",
     "Readings/Documentation as Code/Write the Docs - DaC.md",
     "Readings/Documentation as Code.md",
     "Readings/Documentation as Code",
     "PNGs/Pasted image 20250803175158.png",
-    "Master/Tercer Semestre/Nativo en nube/Semana 1/1 - Conceptos.md",
     "Master/Tercer Semestre/Nativo en nube/Semana 1/0 - Introduccion.md",
     "Master/Segundo Semestre/Arquitecturas moviles/Semana 1/0 - Clase presencial.md",
     "Master/Primer Semestre/Agilismo/Semana 5/Patterns for Managing Source Code Branches.md",
@@ -203,12 +208,7 @@
     "Readings/Open Source Architecture/Processing.js.md",
     "Readings/Open Source Architecture/PyPy.md",
     "Readings/Open Source Architecture/Python Packaging.md",
-    "Readings/Open Source Architecture/The NoSQL Ecosystem.md",
-    "Computer Science/Turing-complete language.md",
-    "Computer Science/Databases/Query Optimizer.md",
-    "Computer Science/Compilers/Abstract Syntax Tree.md",
     "Software/Presentations",
-    "Software",
     "Readings/Untitled.canvas",
     "PNGs/Pasted image 20240623222947.png"
   ]
