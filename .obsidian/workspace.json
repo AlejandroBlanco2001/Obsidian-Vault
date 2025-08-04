@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Software/Interviews/Amazon VP On Promotions, Getting Fired Twice, Working With Bezos - Ethan Evans.md",
+                "file": "Master/Tercer Semestre/Nativo en nube/Semana 1/1 - Contenerización.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Amazon VP On Promotions, Getting Fired Twice, Working With Bezos - Ethan Evans"
+              "title": "1 - Contenerización"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "modelo  por capas",
+                "query": "cohesion",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -170,13 +170,22 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "82333f960a3be76d",
+  "active": "bcf776311ad169fc",
   "lastOpenFiles": [
+    "Master/Tercer Semestre/Nativo en nube/Semana 1/0 - Introduccion.md",
+    "Master/Tercer Semestre/UI-UX/Semana 1/0 - Sincronica.md",
+    "Master/Tercer Semestre/Nativo en nube/Semana 1/Conceptos",
+    "Master/Tercer Semestre/Nativo en nube/Semana 1/1 - Contenerización.md",
+    "Master/Tercer Semestre/Nativo en nube/Semana 1/6 - Documentation as Code (DaC).md",
+    "Master/Tercer Semestre/Nativo en nube/Semana 1/5 - Monorepos y Multirepos.md",
+    "Master/Tercer Semestre/Nativo en nube/Semana 1/4 - Sistemas distribuidos.md",
+    "Master/Tercer Semestre/Nativo en nube/Semana 1/3 - Acoplamiento.md",
+    "Master/Tercer Semestre/Nativo en nube/Semana 1/2 - Cohesion.md",
+    "Software/Interviews/Amazon VP On Promotions, Getting Fired Twice, Working With Bezos - Ethan Evans.md",
+    "Master/Tercer Semestre/UI-UX/Semana 1",
     "Soft Skills/Strong-Style Pairing.md",
     "Soft Skills/Patterns of Effective Teams.md",
-    "Software/Interviews/Amazon VP On Promotions, Getting Fired Twice, Working With Bezos - Ethan Evans.md",
     "Software/Presentations/Why Can't We Make Simple Software - Peter van Hardenberg.md",
-    "Master/Tercer Semestre/Nativo en nube/Semana 1/1 - Conceptos.md",
     "Software/Interviews",
     "Readings/Documentation as Code/What is Docs as Code, Your Guide to Modern Technical Documentation.md",
     "Readings/Documentation as Code/Five fast facts about docs as code at GitLab.md",
@@ -184,7 +193,6 @@
     "Readings/Documentation as Code.md",
     "Readings/Documentation as Code",
     "PNGs/Pasted image 20250803175158.png",
-    "Master/Tercer Semestre/Nativo en nube/Semana 1/0 - Introduccion.md",
     "Master/Segundo Semestre/Arquitecturas moviles/Semana 1/0 - Clase presencial.md",
     "Master/Primer Semestre/Agilismo/Semana 5/Patterns for Managing Source Code Branches.md",
     "Master/Tercer Semestre/Nativo en nube/Semana 1",
@@ -199,16 +207,7 @@
     "Master/Primer Semestre/Arquitectura y diseno/Semana 4/Documenting Software Architecture/Layered Style.md",
     "Master/Primer Semestre/Arquitectura y diseno/Semana 6/Estilos de arquitectura para facilidad de modificación.md",
     "Testing/Chaos Testing.md",
-    "Testing/Untitled",
     "Readings/Open Source Architecture/CMake.md",
-    "Readings/Open Source Architecture/Continuous Integration.md",
-    "Readings/Open Source Architecture/Firefox Release Engineering.md",
-    "Readings/Open Source Architecture/Git.md",
-    "Readings/Open Source Architecture/Graphite.md",
-    "Readings/Open Source Architecture/Processing.js.md",
-    "Readings/Open Source Architecture/PyPy.md",
-    "Readings/Open Source Architecture/Python Packaging.md",
-    "Software/Presentations",
     "Readings/Untitled.canvas",
     "PNGs/Pasted image 20240623222947.png"
   ]
