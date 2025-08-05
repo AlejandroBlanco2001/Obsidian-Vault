@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Master/Tercer Semestre/Nativo en nube/Semana 1/1 - Contenerización.md",
+                "file": "Master/Tercer Semestre/Nativo en nube/Semana 1/10 - Seguridad en contenedores.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1 - Contenerización"
+              "title": "10 - Seguridad en contenedores"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "cohesion",
+                "query": "Iaas",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -170,12 +170,24 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "bcf776311ad169fc",
+  "active": "82333f960a3be76d",
   "lastOpenFiles": [
-    "Master/Tercer Semestre/Nativo en nube/Semana 1/0 - Introduccion.md",
-    "Master/Tercer Semestre/UI-UX/Semana 1/0 - Sincronica.md",
-    "Master/Tercer Semestre/Nativo en nube/Semana 1/Conceptos",
+    "PNGs/Pasted image 20250804235823.png",
+    "Master/Tercer Semestre/Nativo en nube/Semana 1/9 - CNFC.md",
+    "Master/Tercer Semestre/Nativo en nube/Semana 1/10 - Seguridad en contenedores.md",
+    "PNGs/Pasted image 20250804234713.png",
+    "Master/Tercer Semestre/Nativo en nube/Semana 1/8 - Introduction a las aplicaciones nativas en la nube.md",
+    "Master/Tercer Semestre/Nativo en nube/Semana 1/7 - Caso de estudio de Cash App.md",
     "Master/Tercer Semestre/Nativo en nube/Semana 1/1 - Contenerización.md",
+    "Master/Segundo Semestre/Cloud/Semana 1/3 - Tercera OLA.md",
+    "Master/Segundo Semestre/Cloud/Semana 1/2 - Sistemas distribuidos.md",
+    "Master/Segundo Semestre/Cloud/Semana 1/1 - Introduccion a la computation en la nube.md",
+    "Master/Segundo Semestre/Cloud/Semana 2/3 - Las tecnologías detrás de Pinterest.md",
+    "PNGs/Pasted image 20250804233402.png",
+    "PNGs/Pasted image 20250804223207.png",
+    "Master/Tercer Semestre/UI-UX/Semana 1/0 - Sincronica.md",
+    "Master/Tercer Semestre/Nativo en nube/Semana 1/0 - Introduccion.md",
+    "Master/Tercer Semestre/Nativo en nube/Semana 1/Conceptos",
     "Master/Tercer Semestre/Nativo en nube/Semana 1/6 - Documentation as Code (DaC).md",
     "Master/Tercer Semestre/Nativo en nube/Semana 1/5 - Monorepos y Multirepos.md",
     "Master/Tercer Semestre/Nativo en nube/Semana 1/4 - Sistemas distribuidos.md",
@@ -194,20 +206,12 @@
     "Readings/Documentation as Code",
     "PNGs/Pasted image 20250803175158.png",
     "Master/Segundo Semestre/Arquitecturas moviles/Semana 1/0 - Clase presencial.md",
-    "Master/Primer Semestre/Agilismo/Semana 5/Patterns for Managing Source Code Branches.md",
     "Master/Tercer Semestre/Nativo en nube/Semana 1",
     "Master/Tercer Semestre/UI-UX",
     "Master/Tercer Semestre/Nativo en nube",
     "Master/Primer Semestre",
     "Master/Segundo Semestre",
     "Master/Tercer Semestre",
-    "Master/Primer Semestre/Agilismo/Semana 7/Lectura complementaria - Pipelines.md",
-    "Readings/Diseno de aplicaciones mediante el uso intensivo de datos/Capitulo 2 - Modelos de datos y lenguajes de consulta.md",
-    "Readings/Diseno de aplicaciones mediante el uso intensivo de datos/Capitulo 1 - Fundamentos de los sistemas de datos.md",
-    "Master/Primer Semestre/Arquitectura y diseno/Semana 4/Documenting Software Architecture/Layered Style.md",
-    "Master/Primer Semestre/Arquitectura y diseno/Semana 6/Estilos de arquitectura para facilidad de modificación.md",
-    "Testing/Chaos Testing.md",
-    "Readings/Open Source Architecture/CMake.md",
     "Readings/Untitled.canvas",
     "PNGs/Pasted image 20240623222947.png"
   ]
