@@ -13,15 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Master/Tercer Semestre/Nativo en nube/Semana 1/10 - Seguridad en contenedores.md",
+                "file": "Master/Tercer Semestre/UI-UX/Semana 1/1 - Introducción a la experiencia de usuario.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "10 - Seguridad en contenedores"
+              "title": "1 - Introducción a la experiencia de usuario"
+            }
+          },
+          {
+            "id": "15b45b885bc61c3b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Master/Tercer Semestre/UI-UX/Semana 1/8 - Design Thinking como marco de trabajo.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "8 - Design Thinking como marco de trabajo"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -170,12 +185,29 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "82333f960a3be76d",
+  "active": "15b45b885bc61c3b",
   "lastOpenFiles": [
-    "PNGs/Pasted image 20250804235823.png",
-    "Master/Tercer Semestre/Nativo en nube/Semana 1/9 - CNFC.md",
+    "Master/Tercer Semestre/UI-UX/Semana 1/4 - Ejemplos de experiencia de usuario.md",
+    "Master/Tercer Semestre/UI-UX/Semana 1/5 - UX Design - Ejemplos del mundo real.md",
+    "Master/Tercer Semestre/UI-UX/Semana 1/6 - Interacciones tangibles y experiencias de usuario.md",
+    "Master/Tercer Semestre/UI-UX/Semana 1/7 - Lista de TODOs para su proyecto que incluye UI,UX.md",
+    "Master/Tercer Semestre/UI-UX/Semana 1/8 - Design Thinking como marco de trabajo.md",
+    "PNGs/Pasted image 20250808183703.png",
+    "PNGs/Pasted image 20250808183152.png",
+    "Master/Tercer Semestre/UI-UX/Semana 1/1 - Introducción a la experiencia de usuario.md",
+    "Master/Tercer Semestre/UI-UX/Semana 1/0 - Sincronica.md",
+    "Master/Tercer Semestre/UI-UX/Semana 1/2 - Definición de UX Design.md",
+    "Master/Tercer Semestre/UI-UX/Semana 1/3 - Qué es el Diseño de Experiencia de Usuario.md",
+    "PNGs/Pasted image 20250806194115.png",
+    "PNGs/Pasted image 20250806191622.png",
+    "PNGs/Pasted image 20250806183036.png",
+    "PNGs/Pasted image 20250806182609.png",
+    "PNGs/Pasted image 20250806182417.png",
+    "PNGs/Pasted image 20250806182357.png",
+    "PNGs/Pasted image 20250806182259.png",
+    "PNGs/Pasted image 20250806182248.png",
     "Master/Tercer Semestre/Nativo en nube/Semana 1/10 - Seguridad en contenedores.md",
-    "PNGs/Pasted image 20250804234713.png",
+    "Master/Tercer Semestre/Nativo en nube/Semana 1/9 - CNFC.md",
     "Master/Tercer Semestre/Nativo en nube/Semana 1/8 - Introduction a las aplicaciones nativas en la nube.md",
     "Master/Tercer Semestre/Nativo en nube/Semana 1/7 - Caso de estudio de Cash App.md",
     "Master/Tercer Semestre/Nativo en nube/Semana 1/1 - Contenerización.md",
@@ -183,9 +215,6 @@
     "Master/Segundo Semestre/Cloud/Semana 1/2 - Sistemas distribuidos.md",
     "Master/Segundo Semestre/Cloud/Semana 1/1 - Introduccion a la computation en la nube.md",
     "Master/Segundo Semestre/Cloud/Semana 2/3 - Las tecnologías detrás de Pinterest.md",
-    "PNGs/Pasted image 20250804233402.png",
-    "PNGs/Pasted image 20250804223207.png",
-    "Master/Tercer Semestre/UI-UX/Semana 1/0 - Sincronica.md",
     "Master/Tercer Semestre/Nativo en nube/Semana 1/0 - Introduccion.md",
     "Master/Tercer Semestre/Nativo en nube/Semana 1/Conceptos",
     "Master/Tercer Semestre/Nativo en nube/Semana 1/6 - Documentation as Code (DaC).md",
@@ -195,24 +224,14 @@
     "Master/Tercer Semestre/Nativo en nube/Semana 1/2 - Cohesion.md",
     "Software/Interviews/Amazon VP On Promotions, Getting Fired Twice, Working With Bezos - Ethan Evans.md",
     "Master/Tercer Semestre/UI-UX/Semana 1",
-    "Soft Skills/Strong-Style Pairing.md",
-    "Soft Skills/Patterns of Effective Teams.md",
-    "Software/Presentations/Why Can't We Make Simple Software - Peter van Hardenberg.md",
     "Software/Interviews",
-    "Readings/Documentation as Code/What is Docs as Code, Your Guide to Modern Technical Documentation.md",
-    "Readings/Documentation as Code/Five fast facts about docs as code at GitLab.md",
-    "Readings/Documentation as Code/Write the Docs - DaC.md",
-    "Readings/Documentation as Code.md",
     "Readings/Documentation as Code",
-    "PNGs/Pasted image 20250803175158.png",
-    "Master/Segundo Semestre/Arquitecturas moviles/Semana 1/0 - Clase presencial.md",
     "Master/Tercer Semestre/Nativo en nube/Semana 1",
     "Master/Tercer Semestre/UI-UX",
     "Master/Tercer Semestre/Nativo en nube",
     "Master/Primer Semestre",
     "Master/Segundo Semestre",
     "Master/Tercer Semestre",
-    "Readings/Untitled.canvas",
-    "PNGs/Pasted image 20240623222947.png"
+    "Readings/Untitled.canvas"
   ]
 }
