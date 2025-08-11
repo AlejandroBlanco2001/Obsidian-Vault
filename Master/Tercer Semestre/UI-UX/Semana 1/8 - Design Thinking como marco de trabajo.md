@@ -2,11 +2,12 @@
 tags:
   - UI/UX
   - master
+  - design-thinking
 ---
 Actualmente tenemos varios marcos actuales para el diseno:
 - Design Thinking: Descubrir información relevante, interpretarla, delimitarla y proponer soluciones creativas sobre los datos obtenidos
-- Human Centered Design
-- User Center Design
+- Human Centered Design: Leer en [[9 - Human Centered Design como filosofía de aproximación]]
+- User Center Design: Leer en [[10 - User Centered Design como filosofía de aproximación]]
 
 Por ende, para definir el design thinking necesitamos suplir lo siguiente al usuario:
 - ***Cuando*** lo queremos
