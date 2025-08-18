@@ -46,7 +46,7 @@ Donde nos ofrece los siguientes beneficios:
 
 - Mejora la experiencia del desarrollador: los consumidores de API suelen ser el equipo de desarrollo. API first garantiza que los desarrolladores tengan una experiencia positiva al utilizar las API.
 
-- Reduce el riesgo de fallo: la posibilidad de error se reduce considerablemente gracias a la fiabilidad y coherencia inherentes al diseño y la implementación.]
+- Reduce el riesgo de fallo: la posibilidad de error se reduce considerablemente gracias a la fiabilidad y coherencia inherentes al diseño y la implementación.
 
 # Polylithic Architecture Principle
 
@@ -68,7 +68,7 @@ De igual manera esto parte de otras dos ideas:
 
 # Polyglot Persistence Principle
 
-De la creación del principio anterior, nace también una abstracción para los datos, donde cada microservicio debería tener sus datos y usar lo que necesita
+De la creación del principio anterior, nace también una abstracción para los datos, donde cada micro-servicio debería tener sus datos y usar lo que necesita
 
 > Debemos tener el almacenamiento correcto, para el dato correcto
 
@@ -90,7 +90,7 @@ Es el hecho de diseñar nuestras API con el consumidor en mente, antes que el mi
 - Quienes son en la organización?
 - Necesitan algún tipo de colaboración por parte de otro sistema?
 
-Una vez tienes estas preguntas resueltas, debes trabajar con tu equipo de diseno para manejar un contrato de API ***igual para todo el mundo*** con el fin de tener una consistencia entre las APIs.
+Una vez tienes estas preguntas resueltas, debes trabajar con tu equipo de diseño para manejar un contrato de API ***igual para todo el mundo*** con el fin de tener una consistencia entre las APIs.
 
 # Decentralize Everything Principle
 
@@ -98,7 +98,7 @@ El DEP, establece que todo debe ser descentralizado para otorgarle una mayor lib
 
 > Debes brindar las herramientas para la autonomía del equipo involucrado, sin necesariamente coordinar con mucha gente y quitarles su libertad.
 
-- Descentralizar los microservicios que están aislados de otros microservicios para ayudar al equipo a lograr objetivos como la capacidad de prueba, la extensibilidad, la escalabilidad, etc. Aplicar el diseño basado en el dominio y el contexto delimitado para descentralizar los microservicios basados en el dominio.
+- Descentralizar los micro servicios que están aislados de otros micro servicios para ayudar al equipo a lograr objetivos como la capacidad de prueba, la extensibilidad, la escalabilidad, etc. Aplicar el diseño basado en el dominio y el contexto delimitado para descentralizar los microservicios basados en el dominio.
 
   - Implementar los microservicios de forma independiente en cualquier entorno sin afectar a otros servicios, utilizar contenedores y emplear la tecnología Kubernetes mediante el uso de la infraestructura como código.
 
@@ -114,7 +114,7 @@ El principio de la cultura de la automatización (CAP) establece que es impresci
 
 - Cambiar la mentalidad
 - Crea una comunidad de automatización basada en la practica
-- Ten un repositorio con un codigo compartido de automatizaciones
+- Ten un repositorio con un código compartido de automatizaciones
 - Crea una mentalidad de producto, no de proyecto
 - Trata la automatización como un producto, no como un proyecto
 - Incluye la IA en tus procesos de automatización

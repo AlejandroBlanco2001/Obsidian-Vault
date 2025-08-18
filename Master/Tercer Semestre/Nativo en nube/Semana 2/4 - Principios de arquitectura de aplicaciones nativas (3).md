@@ -30,7 +30,7 @@ Recordemos que cuanto mas servicios estan en una maquina, mas problemas tienes p
 
 ## Be Smart With State Principle
 
-Este principio estipula como y cuando deberías guardar tu estado en el diseno, teniendo en cuenta que realizar esta acción no es la mas compleja, siempre deberías tratar de manejarlo carente de estado.
+Este principio estipula como y cuando deberías guardar tu estado en el diseño, teniendo en cuenta que realizar esta acción no es la mas compleja, siempre deberías tratar de manejar carente de estado.
 
 Recordemos que carente de estado, significa que este se encuentra fuera del contenedor, lo que nos permite deshacernos del contenedor sin ningún tipo de inconveniente.
 
