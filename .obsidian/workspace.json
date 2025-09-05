@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Master/Tercer Semestre/UI-UX/Semana 2/7 - Objetivos UX Research.md",
+                "file": "Master/Tercer Semestre/Nativo en nube/Semana 5/4 - Mejores practicas para FaaS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "7 - Objetivos UX Research"
+              "title": "4 - Mejores practicas para FaaS"
             }
           }
         ]
@@ -160,6 +160,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -172,12 +173,25 @@
   },
   "active": "4a453cbbff1c6045",
   "lastOpenFiles": [
-    "Master/Tercer Semestre/UI-UX/Semana 2/9 - Métodos de UX Research PESTL, AEIOU y FODA.md",
-    "PNGs/Pasted image 20250814214355.png",
-    "PNGs/Pasted image 20250814213530.png",
-    "Master/Tercer Semestre/UI-UX/Semana 2/8 - Métodos UX Research.md",
-    "PNGs/Pasted image 20250814213241.png",
+    "PNGs/Pasted image 20250905000105.png",
+    "PNGs/Pasted image 20250905000035.png",
+    "PNGs/Pasted image 20250904235942.png",
+    "PNGs/Pasted image 20250904235855.png",
+    "PNGs/Pasted image 20250904235813.png",
+    "PNGs/Pasted image 20250904235752.png",
+    "PNGs/Pasted image 20250904235709.png",
+    "PNGs/Pasted image 20250904235708.png",
+    "Master/Tercer Semestre/Nativo en nube/Semana 5/3 - BaaS.md",
+    "Master/Tercer Semestre/Nativo en nube/Semana 5/4 - Mejores practicas para FaaS.md",
+    "Master/Tercer Semestre/Nativo en nube/Semana 5/2 - Serverless.md",
+    "Master/Tercer Semestre/Nativo en nube/Semana 5/1 - Introduccion a la computacion serverless.md",
+    "PNGs/Pasted image 20250904232225.png",
+    "PNGs/Pasted image 20250904220338.png",
+    "PNGs/Pasted image 20250904220031.png",
     "Master/Tercer Semestre/UI-UX/Semana 2/7 - Objetivos UX Research.md",
+    "Master/Tercer Semestre/Nativo en nube/Semana 5",
+    "Master/Tercer Semestre/UI-UX/Semana 2/9 - Métodos de UX Research PESTL, AEIOU y FODA.md",
+    "Master/Tercer Semestre/UI-UX/Semana 2/8 - Métodos UX Research.md",
     "Master/Tercer Semestre/UI-UX/Semana 1/17 - Roles en el UX Design.md",
     "Master/Tercer Semestre/UI-UX/Semana 1/8 - Design Thinking como marco de trabajo.md",
     "Master/Tercer Semestre/UI-UX/Semana 1/9 - Human Centered Design como filosofía de aproximación.md",
@@ -191,23 +205,12 @@
     "Master/Tercer Semestre/UI-UX/Semana 1/1 - Introducción a la experiencia de usuario.md",
     "Master/Tercer Semestre/UI-UX/Semana 2/5 - Entendiendo las interacciones como conversaciones.md",
     "Master/Tercer Semestre/UI-UX/Semana 2/6 - Selección de un público objetivo.md",
-    "PNGs/Pasted image 20250814203503.png",
-    "PNGs/Pasted image 20250814203458.png",
     "Master/Tercer Semestre/UI-UX/Semana 2/4 - Observando la Experiencia.md",
-    "PNGs/Pasted image 20250814202114.png",
-    "PNGs/Pasted image 20250814202107.png",
-    "PNGs/Pasted image 20250814202005.png",
-    "PNGs/Pasted image 20250814201626.png",
-    "PNGs/Pasted image 20250814200948.png",
     "Master/Tercer Semestre/UI-UX/Semana 2/3 - Ejes de investigacion.md",
     "Master/Tercer Semestre/UI-UX/Semana 2/2 - Distribución de métodos por etapa del Lean UX.md",
     "Master/Tercer Semestre/UI-UX/Semana 2/1 - Introducción a los artefactos y entregables del UX Design.md",
     "Master/Tercer Semestre/UI-UX/Semana 2",
     "Master/Tercer Semestre/UI-UX/Semana 1/16 - Mundos en el UX Design.md",
-    "Master/Tercer Semestre/Nativo en nube/Semana 2/6 - Introducción a los orquestradores.md",
-    "Master/Tercer Semestre/Nativo en nube/Semana 2/4 - Principios de arquitectura de aplicaciones nativas (3).md",
-    "Master/Tercer Semestre/Nativo en nube/Semana 2/3 - Principios de arquitectura en la nube (2).md",
-    "Master/Tercer Semestre/Nativo en nube/Semana 2/2 - Principios de arquitectura en la nube.md",
     "Software/Interviews",
     "Readings/Documentation as Code",
     "Testing/Untitled",
@@ -216,7 +219,6 @@
     "Management",
     "Readings/The DevOps Handbook",
     "Readings/Untitled.canvas",
-    "DevOps/General",
-    "DevOps"
+    "DevOps/General"
   ]
 }
