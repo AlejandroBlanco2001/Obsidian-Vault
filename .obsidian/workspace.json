@@ -13,15 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Master/Tercer Semestre/Nativo en nube/Semana 5/4 - Mejores practicas para FaaS.md",
+                "file": "Master/Tercer Semestre/GerenciaDeProyectos/Semana2/5 - Gestión de interesados.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "4 - Mejores practicas para FaaS"
+              "title": "5 - Gestión de interesados"
+            }
+          },
+          {
+            "id": "9e9588cbf4745aaf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Master/Tercer Semestre/Gerencia De Proyectos/Semana 3/4. Desarrollo del crograma.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "4. Desarrollo del crograma"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -171,23 +186,35 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "4a453cbbff1c6045",
+  "active": "9e9588cbf4745aaf",
   "lastOpenFiles": [
-    "PNGs/Pasted image 20250905000105.png",
-    "PNGs/Pasted image 20250905000035.png",
-    "PNGs/Pasted image 20250904235942.png",
-    "PNGs/Pasted image 20250904235855.png",
-    "PNGs/Pasted image 20250904235813.png",
-    "PNGs/Pasted image 20250904235752.png",
-    "PNGs/Pasted image 20250904235709.png",
-    "PNGs/Pasted image 20250904235708.png",
-    "Master/Tercer Semestre/Nativo en nube/Semana 5/3 - BaaS.md",
+    "Master/Tercer Semestre/Gerencia De Proyectos/Semana 3/3. Estimación de tiempos y costos.md",
+    "Master/Tercer Semestre/Gerencia De Proyectos/Semana 3/4. Desarrollo del crograma.md",
+    "Master/Tercer Semestre/Gerencia De Proyectos/Semana 3/2. Construcción de la EDT.md",
+    "Master/Tercer Semestre/Gerencia De Proyectos/Semana 3/1. Alcance del proyecto.md",
+    "PNGs/Pasted image 20251023215031.png",
+    "Master/Tercer Semestre/Gerencia De Proyectos/Semana 2/4 - Acta de constitución del proyecto.md",
+    "Master/Tercer Semestre/Gerencia De Proyectos/Semana 3",
+    "Master/Tercer Semestre/Gerencia De Proyectos/Semana 2/5 - Gestión de interesados.md",
+    "PNGs/Pasted image 20251018152025.png",
+    "PNGs/Pasted image 20251018152002.png",
+    "PNGs/Pasted image 20251018151802.png",
+    "PNGs/Pasted image 20251018151711.png",
+    "PNGs/Pasted image 20251018151647.png",
+    "Master/Tercer Semestre/Gerencia De Proyectos/Semana 2/3 - Matriz de puntuación de peso.md",
+    "PNGs/Pasted image 20251018122151.png",
+    "PNGs/Pasted image 20251018121946.png",
+    "PNGs/Pasted image 20251018121932.png",
+    "PNGs/Pasted image 20251018121326.png",
+    "Master/Tercer Semestre/Gerencia De Proyectos/Semana 2/2 - Definición de proyecto.md",
+    "Master/Tercer Semestre/Gerencia De Proyectos/Semana 2/1 - Viabilidad vs Factibilidad.md",
     "Master/Tercer Semestre/Nativo en nube/Semana 5/4 - Mejores practicas para FaaS.md",
+    "Master/Tercer Semestre/Gerencia De Proyectos/Semana 2",
+    "Master/Tercer Semestre/Gerencia De Proyectos",
+    "Master/Untitled",
+    "Master/Tercer Semestre/Nativo en nube/Semana 5/3 - BaaS.md",
     "Master/Tercer Semestre/Nativo en nube/Semana 5/2 - Serverless.md",
     "Master/Tercer Semestre/Nativo en nube/Semana 5/1 - Introduccion a la computacion serverless.md",
-    "PNGs/Pasted image 20250904232225.png",
-    "PNGs/Pasted image 20250904220338.png",
-    "PNGs/Pasted image 20250904220031.png",
     "Master/Tercer Semestre/UI-UX/Semana 2/7 - Objetivos UX Research.md",
     "Master/Tercer Semestre/Nativo en nube/Semana 5",
     "Master/Tercer Semestre/UI-UX/Semana 2/9 - Métodos de UX Research PESTL, AEIOU y FODA.md",
@@ -202,23 +229,11 @@
     "Master/Tercer Semestre/UI-UX/Semana 1/11- Articulación de DT, HCD y UCD para UX Design.md",
     "Master/Tercer Semestre/UI-UX/Semana 1/15 - Proceso general del UX como punto de partida del proceso de desarollo.md",
     "Master/Tercer Semestre/UI-UX/Semana 1/6 - Interacciones tangibles y experiencias de usuario.md",
-    "Master/Tercer Semestre/UI-UX/Semana 1/1 - Introducción a la experiencia de usuario.md",
-    "Master/Tercer Semestre/UI-UX/Semana 2/5 - Entendiendo las interacciones como conversaciones.md",
-    "Master/Tercer Semestre/UI-UX/Semana 2/6 - Selección de un público objetivo.md",
-    "Master/Tercer Semestre/UI-UX/Semana 2/4 - Observando la Experiencia.md",
-    "Master/Tercer Semestre/UI-UX/Semana 2/3 - Ejes de investigacion.md",
-    "Master/Tercer Semestre/UI-UX/Semana 2/2 - Distribución de métodos por etapa del Lean UX.md",
-    "Master/Tercer Semestre/UI-UX/Semana 2/1 - Introducción a los artefactos y entregables del UX Design.md",
     "Master/Tercer Semestre/UI-UX/Semana 2",
-    "Master/Tercer Semestre/UI-UX/Semana 1/16 - Mundos en el UX Design.md",
     "Software/Interviews",
     "Readings/Documentation as Code",
     "Testing/Untitled",
     "Software/Presentations",
-    "Software",
-    "Management",
-    "Readings/The DevOps Handbook",
-    "Readings/Untitled.canvas",
-    "DevOps/General"
+    "Readings/Untitled.canvas"
   ]
 }
